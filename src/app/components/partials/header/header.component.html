@@ -1,0 +1,58 @@
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" routerLink="accueil"><img style="width: 20px;" src="../../../../assets/images/favicon.png"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a routerLink="/regles"><i class="fas fa-gavel"></i> | Règles</a></li>
+                <li class="dropdown">
+                    <a routerLink="#" class="dropdown-toggle dropdown-inverse" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-info-circle"></i> | Informations <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a routerLink="/races"><i class="fas fa-child"></i> | Les Races</a></li>
+                        <li><a routerLink="/classes"><i class="fas fa-paw"></i> | Les Classes</a></li>
+                        <li><a routerLink="/tableauCR"><i class="fas fa-table"></i> | Tableau Classes/Races</a></li>
+                        <li><a routerLink="/skills"><i class="fas fa-graduation-cap"></i> | Les Compétences</a></li>
+                        <li><a routerLink="/attributs"><i class="fas fa-cogs"></i> | Les Attributs</a></li>
+                        <li><a routerLink="/spells"><i class="fas fa-magic"></i> | Liste des Sorts</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a routerLink="/bestiaire"><i class="fas fa-paw"></i> | Bestiaire</a></li>
+                        <li><a routerLink="/cartes"><i class="fas fa-map-signs"></i> | Cartes</a></li>
+                        <li><a routerLink="/chronologie"><i class="fas fa-hourglass"></i> | Chronologie</a></li>
+                        <li><a routerLink="/achievements"><i class="fas fa-trophy"></i> | Hauts Faits</a></li>
+                        <li><a routerLink="/critiques"><i class="fas fa-list"></i> | Table des Critiques</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a routerLink="#" class="dropdown-toggle dropdown-inverse" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench"></i> | Métiers <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a routerLink="/recettes/alchimie"><i class="fas fa-flask"></i> |  Recettes d'Alchimie</a></li>
+                        <li><a routerLink="/recettes/cuisine"><i class="fas fa-utensils"></i> |  Recettes de Cuisine</a></li>
+                        <li><a routerLink="/recettes/enchantement"><i class="fas fa-magic"></i> |  Recette d'Enchantement</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a routerLink="/recettes/couture"><i class="fas fa-cut"></i> |  Les étoffes et où les trouver</a></li>
+                        <li><a routerLink="/recettes/minage"><i class="fas fa-gem"></i> |  Les minerais et où les trouver</a></li>
+                    </ul>
+                </li>
+                <li class="" id="userMenuNotConnected"><a routerLink="/connexion"><i class="fas fa-sign-in"></i> | Se connecter</a></li>
+                <li class="hidden dropwdown" id="userMenuConnected">
+                    <a routerLink="#" class="dropdown-toggle dropdown-inverse" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i> | Mon compte <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a routerLink="/compte"><i class="fas fa-user"></i> | Mon profil</a></li>
+                        <li><a routerLink="/fiches"><i class="far fa-address-card"></i> | Mes fiches</a></li>
+                        <li><a routerLink="/home" ng-click="logout()"><i class="fas fa-sign-out-alt"></i> | Déconnexion</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
