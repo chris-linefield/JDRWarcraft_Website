@@ -6,14 +6,14 @@
         <h2>Connexion</h2>
         <p style="text-align: center;"><span>Faire un compte sur ce site vous permet de mieux gérer vos fiches, en plus de vous tenir au courant des mises à jours!</span></p>
         <hr>
-        <div class="text-center">
+        <div class="wrapper">
         <div class="formGroup">
-          <label class="controlLabel text-right margin-top-5">Pseudo : </label>
+          <i class="fas fa-envelope"><label> E-Mail : </label></i>
           <input type="text" class="formControl" placeholder="Nom de compte" #userName required>
         </div>
         <div class="formGroup">
-          <label class="controlLabel text-right margin-top-5">Mot de passe : </label>
-          <input type="password" class="formControl ng-pristine ng-untouched ng-valid" placeholder="Mot de passe" #userPassword required>
+          <i class="fas fa-lock"><label>Mot de passe : </label></i>
+          <input type="password" class="formControl" placeholder="Mot de passe" #userPassword required>
         </div>
         <!-- Calling SignIn Api from AuthService -->
         <div class="formGroup">
@@ -27,7 +27,7 @@
           </button>
         </div>
         <div class="forgotPassword">
-          <span routerLink="/mot-de-passe-oublie">Mot de passe oublié ?</span>
+          <a routerLink="/mot-de-passe-oublie">Mot de passe oublié ?</a>
         </div>
       </div>
     </div>
