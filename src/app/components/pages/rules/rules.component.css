@@ -1,0 +1,276 @@
+/*******************
+* General tag change
+*******************/
+body {
+  padding-top:60px;
+  padding-bottom:60px;
+  background-image: url("../../../../assets/images/background/tournament.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  text-align: justify;
+  background-size: 100% 100%;
+  color: #ebdec2;
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+  font-size: 17px;
+  text-shadow: 0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);
+}
+
+html, p, li {
+  color: #ebdec2 ;
+}
+
+input[type=number],
+input[type=text],
+option,
+select {
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  color: #FFFFFF;
+  text-align:center;
+  font-family: "Montserrat","Open Sans",Arial,Helvetica,sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 1.5em;
+  text-shadow: 0 0 1px transparent,0 0 5px rgba(0,0,0,.8);
+}
+
+a:hover {
+  cursor: pointer !important;
+  text-decoration: underline;
+  color: #f8b700;
+}
+
+a {
+  color: #f8b700;
+}
+
+.alert {
+  text-shadow: none !important;
+}
+
+th {
+  background-color: #555555;
+  cursor: pointer;
+}
+
+.table-hover tbody tr:hover td {
+  background-color: #444444;
+}
+
+blockquote {
+  font-size: 1em !important;
+}
+
+/********************
+* RULES
+********************/
+#menuRulesSmall {
+  text-align: center;
+  text-shadow: none;
+}
+
+#menuRules li {
+  background-color: #211510;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 0 !important;
+  text-shadow: none;
+}
+
+#menuRules a:hover,
+#menuRules a:focus,
+#menuScenar a:hover,
+#menuScenar a:focus,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: #F8B700;
+  color: #211510;
+  font-weight: bold;
+  border-radius: 0 !important;
+  text-shadow: none;
+}
+
+
+@media (min-width: 992px) {
+  #menuRulesSmall {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  #menuRulesLarge {
+    display: none;
+  }
+}
+
+.ruleBlock b {
+  color: #F8B700;
+}
+
+/****************
+* Special buttons
+******************/
+.btnSpecial {
+  font-weight: 400;
+  background: rgba(0,0,0,.4);
+  border: 1px solid #c77e19;
+  color: #f7b10a;
+  width: 200px;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: background .2s,color .2s;
+  font-size: 1.224rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+  padding: 10px 20px 10px 20px;
+}
+
+.btnSpecial:hover {
+  background-color: #B06601;
+}
+
+.btn-secondary          { color: #ffffff; background-color: #222; border-color: #333; }
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open .dropdown-toggle.btn-secondary
+{ color: #ffffff; background-color: #777; border-color: #888; }
+
+.btn-violet          { color: #ffffff; background-color: #670089; border-color: #A44DC1; }
+.btn-violet:hover, .btn-violet:focus, .btn-violet:active, .btn-violet.active, .open .dropdown-toggle.btn-violet
+{ color: #ffffff; background-color: #A44DC1; border-color: #670089; }
+
+.btn-grey          { color: #ffffff; background-color: #777; border-color: #333; }
+.btn-grey:hover, .btn-grey:focus, .btn-grey:active, .btn-grey.active, .open .dropdown-toggle.btn-grey
+{ color: #ffffff; background-color: #888; border-color: #333; }
+
+.btn-brown          { color: #ffffff; background-color: #A57930; border-color: #724906; }
+.btn-brown:hover, .btn-brown:focus, .btn-brown:active, .btn-brown.active, .open .dropdown-toggle.btn-brown
+{ color: #ffffff; background-color: #CEA056; border-color: #724906; }
+
+/*************
+* COLORS
+*************/
+.color-alliance{color: #EDA30E;text-shadow: 0px 0px 5px #5b61ff;font-weight:bold}
+.color-black{color: black;}
+.color-blue{color: blue;}
+.color-conflit{color: #FFFFFF;text-shadow: 0px 0px 5px #FF0000;font-weight:bold}
+.color-cyan{color:cyan;}
+.color-death-knight{color:#C41E3B;}
+.color-demon-hunter{color:#a330c9;}
+.color-druid{color:#ff7c0a;}
+.color-gold{color: #F8B700;}
+.color-green{color: green !important;}
+.color-horde{color: #000000;text-shadow: 0px 0px 5px #FF0000;font-weight:bold}
+.color-hunter{color:#aad372;}
+.color-kirintor{color: #FFFFFF;text-shadow: 0px 0px 5px #AE0EBE;font-weight:bold}
+.color-mage{color:#68ccef;}
+.color-monk{color:#37EFB1;}
+.color-orange{color: orange;}
+.color-paladin{color:#f48cba;}
+.color-priest{color:#ffffff;}
+.color-purple{color:purple;}
+.color-ratial{color:#000000;}
+.color-red{color: red !important;}
+.color-rogue{color:#fff468;}
+.color-shaman{color:#2359ff;}
+.color-undefined{color:#000000;}
+.color-unusualgreen{color:#1eff00;}
+.color-warlock{color:#9382c9;}
+.color-warrior{color:#c69b6d;}
+.color-white{color: white;}
+
+/************
+* PADDINGS
+*************/
+.padding-right-10{padding-right: 10px;}
+.padding-burger-5{padding-top: 5px; padding-bottom:5px;}
+.padding-bottom-5{padding-bottom: 5px;}
+.padding-top-8{padding-top:8px;}
+
+/*************
+* MARGINS
+*************/
+.margin-bottom-10{margin-bottom:10px;}
+.margin-top-min18{margin-top:-18px;}
+.margin-top-20{margin-top:20px;}
+.margin-top-5{margin-top:5px;}
+
+/***********
+* POSITIONS
+*************/
+.display-table{display:table;}
+.display-tcell{display:table-cell;}
+.position-relative{position:relative;}
+.valign-middle{vertical-align: middle !important;}
+
+/***************
+* HEIGHT
+***************/
+.height-150px{height: 150px;}
+.height-300px{height: 300px;}
+.height-50px{height:50px;}
+.height-40px{height:40px;}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.max-height-300{max-height:300px;overflow-x:scroll;}
+
+
+/*************
+* WIDTH
+**************/
+.width-300px{width:300px;}
+.width-250px{width:250px;}
+.width-200px{width:200px;}
+.width-240px{width:240px;}
+.width-100px{width:100px;}
+.width-50px{width:50px;}
+.width-30px{width:30px;}
+.width-70pct{width: 70%;}
+.width-half{width:50%;}
+
+
+/**************
+* FONT
+*************/
+.font-size-big{font-size:1.4em;}
+.font-size-120pct{font-size: 1.2em;}
+.font-size-90pct{font-size: 0.9em;}
+.font-size-80pct{font-size: 0.8em;}
+.font-size-70pct{font-size: 0.7em;}
+.font-size-60pct{font-size: 0.6em;}
+.font-size-40pct{font-size: 0.4em;}
+.font-size-10px{font-size:10px !important;}
+.font-italic{font-style: italic;}
+.subtitle{font-size: 10px; color: #b1997f;}
+.italic{font-style:italic;}
+
+/***********
+* MISC
+*************/
+.cursor-pointer{cursor:pointer;}
+.square-10{width:10px; height:10px;}
+.square-20{width:20px; height:20px;}
+.square-30{width:30px; height:30px;}
+.square-40{width:40px; height:40px;}
+.square-50{width:50px; height:50px;}
+.round-50{width:50px; height:50px;border-radius:25px;}
+.square-60{width:60px; height:60px;}
+.border-radius-5{border-radius:5px;}
+.border-radius-10{border-radius:10px;}
+.opacity-20pct{opacity: 0.2;}
+.opacity-half{opacity: 0.5;}
+.border-bottom-whitedot{border-bottom: 1px dotted white;}
+.btn-carac{width: 20px; height: 20px; padding: 1px;}
+.roundShape{border-radius:50%;}
+.table-spell{max-height: 500px; overflow-y: scroll; overflow-x: none}
+.no-list-style{list-style-type:none;}

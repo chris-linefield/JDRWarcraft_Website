@@ -19,6 +19,32 @@ import { FooterComponent } from './components/partials/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home.component';
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
+import { RulesComponent } from './components/pages/rules/rules.component';
+import { RacesComponent } from './components/pages/races/races.component';
+import { DraeneiComponent } from './components/pages/races/draenei/draenei.component';
+import { ElfenuitComponent } from './components/pages/races/elfenuit/elfenuit.component';
+import { ElfesangComponent } from './components/pages/races/elfesang/elfesang.component';
+import { GnomeComponent } from './components/pages/races/gnome/gnome.component';
+import { HumainComponent } from './components/pages/races/humain/humain.component';
+import { NainComponent } from './components/pages/races/nain/nain.component';
+import { OrcComponent } from './components/pages/races/orc/orc.component';
+import { ReprouveComponent } from './components/pages/races/reprouve/reprouve.component';
+import { TaurenComponent } from './components/pages/races/tauren/tauren.component';
+import { TrollComponent } from './components/pages/races/troll/troll.component';
+import { ClassesComponent } from './components/pages/classes/classes.component';
+import { ChamanComponent } from './components/pages/classes/chaman/chaman.component';
+import { ChasseurComponent } from './components/pages/classes/chasseur/chasseur.component';
+import { ChasseurdemonComponent } from './components/pages/classes/chasseurdemon/chasseurdemon.component';
+import { DkComponent } from './components/pages/classes/dk/dk.component';
+import { DemonisteComponent } from './components/pages/classes/demoniste/demoniste.component';
+import { DruideComponent } from './components/pages/classes/druide/druide.component';
+import { GuerrierComponent } from './components/pages/classes/guerrier/guerrier.component';
+import { MageComponent } from './components/pages/classes/mage/mage.component';
+import { MoineComponent } from './components/pages/classes/moine/moine.component';
+import { PaladinComponent } from './components/pages/classes/paladin/paladin.component';
+import { PretreComponent } from './components/pages/classes/pretre/pretre.component';
+import { VoleurComponent } from './components/pages/classes/voleur/voleur.component';
+import { SortsComponent } from './components/pages/sorts/sorts.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +56,33 @@ import { AuthService } from "./shared/services/auth.service";
     VerifyEmailComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    RulesComponent,
+    RacesComponent,
+    DraeneiComponent,
+    ElfenuitComponent,
+    ElfesangComponent,
+    GnomeComponent,
+    HumainComponent,
+    NainComponent,
+    OrcComponent,
+    ReprouveComponent,
+    TaurenComponent,
+    TrollComponent,
+    ClassesComponent,
+    ChamanComponent,
+    ChasseurComponent,
+    ChasseurdemonComponent,
+    DkComponent,
+    DemonisteComponent,
+    DruideComponent,
+    GuerrierComponent,
+    MageComponent,
+    MoineComponent,
+    PaladinComponent,
+    PretreComponent,
+    VoleurComponent,
+    SortsComponent
   ],
   imports: [
     BrowserModule,
