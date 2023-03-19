@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ChronologieComponent } from './components/pages/chronologie/chronologie.component';
 import { ChamanComponent } from './components/pages/classes/chaman/chaman.component';
 import { ClassesComponent } from './components/pages/classes/classes.component';
+import { GuerrierComponent } from './components/pages/classes/guerrier/guerrier.component';
 import { PaladinComponent } from './components/pages/classes/paladin/paladin.component';
 import { ForgotPasswordComponent } from './components/pages/forgot-password/forgot-password.component';
 import { HomeComponent } from './components/pages/home/home.component';
@@ -43,7 +45,9 @@ const routes: Routes = [
   { path: 'classes', component: ClassesComponent},
   { path: 'classes/chaman', component: ChamanComponent},
   { path: 'classes/paladin', component: PaladinComponent},
+  { path: 'classes/guerrier', component: GuerrierComponent},
   { path: 'sorts', component: SortsComponent},
+  { path: 'chronologie', component: ChronologieComponent},
   { path: 'connexion', component: LoginComponent},
   { path: 'inscription', component: RegisterComponent},
   { path: 'profil', component:ProfilComponent, canActivate: [AuthGuard]},

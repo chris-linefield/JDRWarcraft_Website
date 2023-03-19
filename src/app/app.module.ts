@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgPipesModule } from 'ngx-pipes';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // Firebase
@@ -45,6 +46,7 @@ import { PaladinComponent } from './components/pages/classes/paladin/paladin.com
 import { PretreComponent } from './components/pages/classes/pretre/pretre.component';
 import { VoleurComponent } from './components/pages/classes/voleur/voleur.component';
 import { SortsComponent } from './components/pages/sorts/sorts.component';
+import { ChronologieComponent } from './components/pages/chronologie/chronologie.component';
 
 @NgModule({
   declarations: [
@@ -82,10 +84,12 @@ import { SortsComponent } from './components/pages/sorts/sorts.component';
     PaladinComponent,
     PretreComponent,
     VoleurComponent,
-    SortsComponent
+    SortsComponent,
+    ChronologieComponent
   ],
   imports: [
     BrowserModule,
+    NgPipesModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,

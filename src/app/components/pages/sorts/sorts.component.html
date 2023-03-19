@@ -1,3 +1,21 @@
 <body>
-
+  <div class="search-form" style="text-align:center; width:100%">
+    <input type="text" placeholder="Recherche de sorts" (keyup)="onSearch($event)">
+    <button>Rechercher</button>
+  </div>
+  <div class="spell-container">
+    <div class="spell-card" *ngFor="let spell of filteredSpells">
+      <img [src]="spell.image" alt="{{spell.title}}" class="spell-image">
+      <div class="spell-info">
+        <h2 class="spell-title">{{spell.title}}</h2>
+        <p class="spell-class color-class">{{spell.class}}</p>
+        <p class="spell-level">Niveau {{spell.level}}</p>
+        <p class="spell-mana color-mana">Coût en Mana : {{spell.manaCost}}</p>
+        <p class="spell-description color-description">Description : {{spell.description}}</p>
+        <p class="spell-range">Portée : {{spell.range}}</p>
+        <p class="spell-cast-time color-incantation">Temps d'incantation : {{spell.castTime}}</p>
+        <p class="spell-duration">Durée : {{spell.duration}}</p>
+      </div>
+    </div>
+  </div>
 </body>

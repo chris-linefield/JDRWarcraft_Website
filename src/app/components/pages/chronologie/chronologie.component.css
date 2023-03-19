@@ -1,0 +1,313 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700);
+
+/*******************
+* General tag change
+*******************/
+body {
+  padding-top:60px;
+  padding-bottom:60px;
+  background-image: url("/assets/images/background/map.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: justify;
+  color: #ebdec2;
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+  font-size: 17px;
+  text-shadow: 0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);
+}
+
+html, p, li {
+  color: #ebdec2 ;
+}
+
+input[type=number],
+input[type=text],
+option,
+select {
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  color: #FFFFFF;
+  text-align:center;
+  font-family: "Montserrat","Open Sans",Arial,Helvetica,sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 1.5em;
+  text-shadow: 0 0 1px transparent,0 0 5px rgba(0,0,0,.8);
+}
+
+a:hover {
+  cursor: pointer !important;
+  text-decoration: underline;
+  color: #f8b700;
+}
+
+a {
+  color: #f8b700;
+}
+
+.alert {
+  text-shadow: none !important;
+}
+
+th {
+  background-color: #555555;
+  cursor: pointer;
+}
+
+.table-hover tbody tr:hover td {
+  background-color: #444444;
+}
+
+blockquote {
+  font-size: 1em !important;
+}
+.blocRechercheRapide{
+    position: fixed;
+    bottom: 0px;
+    right:0;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.pChrono {
+    margin: 0 0 10px 8px;
+    line-height: 1.6em;
+}
+
+
+.clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+
+.step1 {
+    color: rgba(255, 255, 255, 0.2);
+}
+.step2 {
+    color: rgba(255, 255, 255, 0.4);
+}
+.step3 {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.timeline-container {
+  border-left: 4px solid #AA0000;
+  margin: 20px auto;
+  width: 100%;
+}
+.timeline-container-tick {
+  background: #AA0000;
+  content: "";
+  display: block;
+  height: 4px;
+  left: -8px;
+  width: 14px;
+  position: relative;
+}
+.timeline-container::before {
+  background: #AA0000;
+  content: "";
+  display: block;
+  height: 4px;
+  left: -8px;
+  width: 14px;
+  position: relative;
+  top: -4px;
+}
+.timeline-container::after {
+  background: #AA0000;
+  content: "";
+  display: block;
+  height: 4px;
+  left: -8px;
+  width: 14px;
+  position: relative;
+  top: 4px;
+}
+.timeline-toggle {
+  background: rgba(23, 66, 98, 0.65);
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #FFD704;
+  cursor: pointer;
+  float: right;
+  font-size: 12px;
+  margin-right: 0;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.timeline-toggle:hover {
+  background: rgba(119, 0, 63, 0.8);
+  -webkit-transition: background 0.2s ease-in;
+  -moz-transition: background 0.2s ease-in;
+  -o-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+.timeline-toggle:focus {
+  outline: none;
+}
+.timeline-wrapper {
+  clear: left;
+  float: left;
+  margin: 0 0 12px;
+  width: 100%;
+}
+.timeline-wrapper .timeline-time::before {
+  border-top: 4px solid #AA0000;
+  content: "";
+  display: inline-block;
+  height: 4px;
+  margin-right: 0px;
+  vertical-align: middle;
+  width: 24px;
+}
+.timeline-wrapper .timeline-time {
+  cursor: pointer;
+  font-size: 2em;
+  margin: 0 0 10px 0;
+  text-align: left;
+  padding: 0;
+}
+.timeline-wrapper .timeline-time span {
+  background: #AA0000;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFD704;
+  display: inline-block;
+  letter-spacing: 0;
+  padding: 10px 10px 5px 10px;
+  text-align: center;
+}
+.timeline-wrapper .timeline-time span:hover {
+  background: #990000;
+  -webkit-transition: background 0.2s ease-in;
+  -moz-transition: background 0.2s ease-in;
+  -o-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+.timeline-series {
+  clear: left;
+  float: left;
+  margin: 0 12px 0 0;
+  padding: 4px 4px 4px 0;
+  position: relative;
+}
+.timeline-series dt::before {
+  border-top: 3px solid #AA0000;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 10px;
+}
+.timeline-series dt {
+  clear: left;
+  line-height: 1.2em;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.timeline-series dt a {
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.timeline-series dt a .closed {
+  color: #999;
+  font-size: 1em;
+  margin-left: 0;
+}
+.timeline-series dt a .open {
+  color: #7DBADF;
+}
+.timeline-series dt a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: color 0.2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+.timeline-series dd {
+  padding-left: 24px;
+  width: 100%;
+}
+.timeline-series dd h3 {
+  color: #FFF;
+  clear: both;
+  float: left;
+  font-size: 1.5em;
+  margin: 0;
+  white-space: nowrap;
+}
+.tick {
+  background: #AA0000;
+  clear: both;
+  display: block;
+  height: 2px;
+  left: 0;
+  width: 4px;
+  position: relative;
+}
+.tick-before {
+  top: -6px;
+}
+.tick-after {
+  top: -4px;
+}
+.timeline-event-content {
+  display: none;
+  margin-bottom: 40px;
+}
+.timeline-event-content p {
+  clear: left;
+  float: left;  font-weight: 100;
+  line-height: 1.2em;
+  margin: 6px 0 10px;
+}
+.timeline-event-content h4 {
+  clear: left;
+  float: left;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 10px 0 0;
+  padding: 0 0 0 20px;
+}
+.timeline-event-content blockquote {
+  border-left: 2px solid #D34508;
+  clear: left;
+  float: left;
+  line-height: 1.2em;
+  margin-left: 0;
+  padding: 0 30px;
+}
+.timeline-event-content blockquote .attribution {
+  font-size: 0.7em;
+  text-align: right;
+}
+.timeline-event-content .media {
+  float: right;
+  padding: 0 0 12px;
+}
+.timeline-event-content .media img {
+  border: 2px solid #FFD704;
+  border-radius: 100px;
+  height: 200px;
+  margin: 0;
+}
+.timeline-event-content .media p {
+  clear: both;
+  margin: 15px 0;
+}
+.timeline-event-content .media p a {
+  text-transform: lowercase;
+}
