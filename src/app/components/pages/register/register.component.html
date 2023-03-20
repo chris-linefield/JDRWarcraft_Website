@@ -1,53 +1,35 @@
-<div class="displayTable">
-  <div class="displayTableCell">
-    <div class="authBlock">
-      <h3>Sign Up</h3>
-      <div class="formGroup">
-        <input
-          type="email"
-          class="formControl"
-          placeholder="Email Address"
-          #userEmail
-          required
-        />
+<body>
+  <div class="content">
+    <h2>Page Inscription</h2>
+    <p style="text-align: center;"><span>Si tu n'as pas de compte, n'hésite pas à t'en faire un chez nous, en plus tu peux directement utiliser le service Google pour t'enregistrer !</span></p>
+    <hr>
+    <div class="wrapper center-div">
+      <div class="form-box login">
+        <h2>Inscription</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <input type="email" class="formControl" #userEmail required>
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon">
+              <i class="fas fa-lock"></i>
+            </span>
+            <input type="password" class="formControl" #userPwd required>
+            <label>Mot de passe</label>
+          </div>
+          <button type="button" class="btn" value="Sign Up" (click)="authService.SignUp(userEmail.value, userPwd.value)">Inscription</button>
+          <br><br>
+          <button type="button" class="btn" (click)="authService.GoogleAuth()"><i class="fab fa-google-plus-g"></i>Inscription avec Google</button>
+          <div class="login-register">
+            <p>Déjà un compte ?
+            <a routerLink="/connexion">Connexion</a></p>
+          </div>
+        </form>
       </div>
-      <div class="formGroup">
-        <input
-          type="password"
-          class="formControl"
-          placeholder="Password"
-          #userPwd
-          required
-        />
-      </div>
-      <div class="formGroup">
-        <input
-          type="button"
-          class="btn btnPrimary"
-          value="Sign Up"
-          (click)="authService.SignUp(userEmail.value, userPwd.value)"
-        />
-      </div>
-      <div class="formGroup">
-        <span class="or"><span class="orInner">Or</span></span>
-      </div>
-      <!-- Continue with Google -->
-      <div class="formGroup">
-        <button
-          type="button"
-          class="btn googleBtn"
-          (click)="authService.GoogleAuth()"
-        >
-          <i class="fab fa-google-plus-g"></i>
-          Continue with Google
-        </button>
-      </div>
-    </div>
-    <div class="redirectToLogin">
-      <span
-        >Already have an account?
-        <span class="redirect" routerLink="/connexion">Log In</span></span
-      >
     </div>
   </div>
-</div>
+</body>

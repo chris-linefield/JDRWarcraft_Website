@@ -1,37 +1,38 @@
 <body>
   <div class="content">
-  <div class="displayTable">
-    <div class="displayTableCell">
-      <div class="authBlock">
-        <h2>Connexion</h2>
-        <p style="text-align: center;"><span>Faire un compte sur ce site vous permet de mieux gérer vos fiches, en plus de vous tenir au courant des mises à jours!</span></p>
-        <hr>
-        <div class="wrapper">
-        <div class="formGroup">
-          <i class="fas fa-envelope"><label> E-Mail : </label></i>
-          <input type="text" class="formControl" placeholder="Nom de compte" #userName required>
+    <h2>Page Connexion</h2>
+    <p style="text-align: center;"><span>Faire un compte sur ce site vous permet de mieux gérer votre fiche, en plus de vous tenir au courant sur la campagne Warcraft !</span></p>
+    <hr>
+  <div class="wrapper center-div">
+    <div class="form-box login">
+      <h2>Connexion</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <input type="text" class="formControl" #userName required>
+          <label>Email</label>
         </div>
-        <div class="formGroup">
-          <i class="fas fa-lock"><label>Mot de passe : </label></i>
-          <input type="password" class="formControl" placeholder="Mot de passe" #userPassword required>
-        </div>
-        <!-- Calling SignIn Api from AuthService -->
-        <div class="formGroup">
-          <input type="button" class="btn btn-primary" value="Connexion" (click)="authService.SignIn(userName.value, userPassword.value)">
-        </div>
-        <!-- Calling GoogleAuth Api from AuthService -->
-        <div class="formGroup">
-          <button type="button" class="btn btn-primary" (click)="authService.GoogleAuth()">
-            <i class="fab fa-google-plus-g"></i>
-            Log in with Google
-          </button>
+        <div class="input-box">
+          <span class="icon">
+            <i class="fas fa-lock"></i>
+          </span>
+          <input type="password" class="formControl" #userPassword required>
+          <label>Mot de passe</label>
         </div>
         <div class="forgotPassword">
           <a routerLink="/mot-de-passe-oublie">Mot de passe oublié ?</a>
         </div>
-      </div>
-    </div>
+        <button type="submit" class="btn" value="Connexion" (click)="authService.SignIn(userName.value, userPassword.value)">Connexion</button>
+        <br><br>
+        <button type="button" class="btn" (click)="authService.GoogleAuth()"><i class="fab fa-google-plus-g"></i>Connexion avec Google</button>
+        <div class="login-register">
+          <p>Pas de compte ?
+          <a routerLink="/inscription">Inscription</a></p>
+        </div>
+      </form>
     </div>
   </div>
-  </div>
+</div>
 </body>
