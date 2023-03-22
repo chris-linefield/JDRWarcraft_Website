@@ -1,1 +1,689 @@
-<p>mage works!</p>
+<body>
+  <section class="container">
+      <div id="classContainer"><h1>Le Mage</h1>
+          <h4 class="color-mage">Maître de l'Espace-temps</h4>
+          <div class="classSection">
+              <div class="row">
+                  <div class="col-xs-6">
+                      <p class="italic">Les étudiants les plus intelligents et les plus disciplinés peuvent envisager une carrière de mage. Comme la magie des arcanes que manipulent les mages est à la fois puissante et dangereuse, elle n’est enseignée qu’à ceux qui la pratiquent avec respect et assiduité. Pour éviter toute interférence avec les sorts qu’ils lancent, les mages ne portent pour armure que de simples vêtements, mais les boucliers arcaniques et les enchantements leur confèrent une protection supplémentaire. Pour spanndre le dessus sur leurs ennemis, les mages peuvent invoquer des boules de feu à lancer sur des cibles à distance ou causer l’éruption de toute une zone pour calciner tout un groupe d’adversaires.</p>
+                      <p class="color-white">Les mages anéantissent leurs ennemis par leurs <b class="color-gold">incantations arcaniques</b>. S’ils manient des sorts offensifs d’une puissance indicible, ils n’en sont pas moins <b class="color-gold">fragiles</b> avec leurs armures légères, ce qui les laisse particulièrement vulnérables au combat en corps-à-corps. Ainsi, les mages les plus sages font un usage réfléchi de leurs sortilèges pour garder leurs ennemis à bonne distance ou les <b class="color-gold">clouer sur place</b> en les gelant ou en les <b class="color-gold">métamorphosant</b>.
+                      </p>
+                      <h3>Présentation du Mage</h3>
+                      <ul class="nav nav-tabs" role="tablist">
+                          <li role="spansentation" class="active">
+                              <a href="#magebase" aria-controls="home" role="tab" data-toggle="tab">
+                                  <img class="round-50" src="/assets/images/classes/mage.jpg">
+                              </a>
+                          </li>
+                          <li role="spansentation">
+                            <a href="#magesorts" aria-controls="profile" role="tab" data-toggle="tab">
+                                <img class="round-50" src="/assets/images/classes/specialisation/mage_sorts.png">
+                            </a>
+                        </li>
+                          <li role="spansentation">
+                              <a href="#magearcanes" aria-controls="profile" role="tab" data-toggle="tab">
+                                  <img class="round-50" src="/assets/images/classes/specialisation/mage_arca.jpg">
+                              </a>
+                          </li>
+                          <li role="spansentation">
+                              <a href="#magefeu" aria-controls="messages" role="tab" data-toggle="tab">
+                                  <img class="round-50" src="/assets/images/classes/specialisation/mage_feu.jpg">
+                              </a>
+                          </li>
+                          <li role="spansentation">
+                              <a href="#magegivre" aria-controls="messages" role="tab" data-toggle="tab">
+                                  <img class="round-50" src="/assets/images/classes/specialisation/mage_givre.jpg">
+                              </a>
+                          </li>
+                      </ul>
+                      <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="magebase">
+                              <h4>Description générale</h4>
+                              <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <tbody>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv.</strong></th>
+                                <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">M.B</th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Sorts</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Dons connus</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Points de sorcellerie</strong></th>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 1</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Lancer de sorts</li>
+                                <li>Sens de la magie</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>-</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 2</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Crit&egrave;re de la magie</li>
+                                <li>&Eacute;tude magique</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>2</b></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 3</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>M&eacute;ta-magie</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Caract&eacute;ristique augment&eacute;e</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 5</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>4</b></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 6</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Fonction d'&eacute;tude magique</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>6</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 7</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>7</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 8</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Caract&eacute;ristique augment&eacute;e</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>8</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 9</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <p>&nbsp;</p>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>9</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 10</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Fonction d'&eacute;tude magique</li>
+                                <li>Meta-magie</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>10</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 11</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>11</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 12</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Caract&eacute;ristique augment&eacute;e</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>12</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 13</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">&nbsp;</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>13</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 14</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Fonction d'&eacute;tude magique</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>14</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 15</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>5</b></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>15</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 16</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Caract&eacute;ristique augment&eacute;e</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>5</b></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>16</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 17</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>&nbsp;M&eacute;ta-magie</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>5</b></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>17</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 18</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Ma&icirc;trise de la magie</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <p style="text-align: center;"><strong><span style="font-size: 12px;">5</span></strong></p>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>18</b></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 19</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Caract&eacute;ristique augment&eacute;e</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>5</b></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>19</strong></td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 20</strong></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                <ul>
+                                <li>Sort de signature</li>
+                                </ul>
+                                </td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>5</b></td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>20</b></td>
+                                </tr>
+                                </tbody>
+                                </table>
+                                <p>&nbsp;</p>
+                                <p><span style="color: #ffffff;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;">Sorts connus du&nbsp;Mage</span></strong></span></p>
+                                <hr />
+                                <p>&nbsp;</p>
+                                <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <tbody>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. Mage</strong></th>
+                                <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>I</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>II</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>III</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>IV</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>V</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>VI</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>VII</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>VIII</strong></th>
+                                <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>IX</strong></th>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 6</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 7</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 8</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 9</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 10</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 11</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 12</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 13</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 14</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 15</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 16</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 17</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 18</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 19</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 20</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                              </div>
+                              <div role="tabpanel" class="tab-pane" id="magesorts">
+                                <h4>Sorts du Mage</h4>
+                                <br>
+                                <span style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Lanceur de sort</span></strong></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">En tant qu'&eacute;tudiant des arcanes, vous poss&eacute;dez un livre de sorts&nbsp;qui montrent les lueurs de votre vrai pouvoir. Au niveau 1, vous connaissez trois dons de votre choix dans la liste des sorts de mage.</span><br /><br /><span style="text-decoration: underline;"><strong><span style="font-family: arial, helvetica, sans-serif;">Livre de sorts</span></strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Vous avez un livre de sorts contenant six sorts de mage de 1er niveau au choix. Le livre de sort ne contient pas les dons du mage que vous allez apspanndre au niveau 1.</span><br /><br /><span style="text-decoration: underline;"><strong><span style="font-family: arial, helvetica, sans-serif;">Lancer des rituels</span></strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Vous pouvez lancer un sort de mage en tant que rituel si ce sort a la balise et que vous avez le sort dans votre livre de sorts.</span><br /><br /><span style="font-family: arial, helvetica, sans-serif;"><em>Jet de Sauvegarde =</em> <em>8 + votre ma&icirc;trise bonus + votre mod. de Intelligence</em></span><br /><span style="font-family: arial, helvetica, sans-serif;"><em>Modification d'attaque des sorts =</em> <em>Votre ma&icirc;trise bonus + votre mod. de Intelligence<br /></em></span><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;"><b><span style="color: #ff0000;">Vous utilisez un livre des sorts pour lancer des sorts de Mage, quelque soit le niveau.</span><br /></b></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span><span style="font-size: 18px;"><b>Sens de la magie</b></span></span></span></span>
+                                <hr />
+                                <span id="tw-target-text" class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Vos &eacute;tudes vous ont appris &agrave; sentir l'&eacute;nergie magique r&eacute;siduelle. Vous pouvez sentir quand un sort a &eacute;t&eacute; lanc&eacute; dans la derni&egrave;re heure &agrave; votre emplacement actuel et voir les &eacute;critures cr&eacute;&eacute;es ou utilis&eacute;e par la magie qui est cach&eacute;e aux autres. Pour autant que vous </span><span style="font-family: arial, helvetica, sans-serif;">comspannez la langue, vous pouvez aussi la d&eacute;chiffrer et la lire. Malgr&eacute; tout, vos connaissances sont limit&eacute;es &agrave; l'apspanntissage de votre personnage, vous &ecirc;tes incapable de lire un sort d'un niveau plus &eacute;lev&eacute; que le v&ocirc;tre. De plus, vous pouvez cr&eacute;er une &eacute;criture magique cach&eacute;e dans n'importe quelle langue que vous connaissez. Les autres rep&egrave;rent la pr&eacute;sence du message en r&eacute;ussissant un test de Sagesse (Perception) DC 15.</span><em><span style="font-family: arial, helvetica, sans-serif;"><br /></span></em></span></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><b><br /><span style="font-size: 18px;">Crit&egrave;re de la magie</span></b></span></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Vous puisez dans une profonde source de magie en vous. Cette source est repr&eacute;sent&eacute;e par des points de sorcellerie, qui vous permettent de cr&eacute;er une vari&eacute;t&eacute; d'effets magiques.<br /><br /><strong>Points de sorcellerie</strong><br />Vous disposez de 2 points de sorcellerie, et vous en gagnez davantage lorsque vous atteignez niveaux sup&eacute;rieurs, comme le montre la colonne Points de sorcellerie. Vous ne pouvez jamais avoir plus de points de sorcellerie que le nombre indiqu&eacute;s sur la table des mages pour votre niveau. Vous r&eacute;cup&eacute;rez vos points de sorcellerie &agrave; chaque combat.<br /><br /><strong>Incantation flexible</strong><br />Vous pouvez utiliser vos points de sorcellerie pour gagner du mana suppl&eacute;mentaire. Vous apspannez d'autres fa&ccedil;ons d'utiliser vos points de sorcellerie lorsque vous atteignez des niveaux plus &eacute;lev&eacute;s. <br /></span><br /><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>&Eacute;tude magique</b></span></span>
+                                <hr />
+                                <span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Vous choisissez une &eacute;tude magique, fa&ccedil;onnant votre pratique de la magie &agrave; travers l'un des trois domaines suivants : Arcane, Feu ou Givre. Votre choix vous conf&egrave;re des caract&eacute;ristiques au niveau 3, 6, 10 et 14.<br /><em style="font-size: 14px;"><br /></em><span style="font-size: 18px;"><b>M&eacute;ta-magie</b></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Au niveau 3, vous gagnez la capacit&eacute; de tordre vos sorts pour les adapter vos besoins. Vous gagnez deux des options m&eacute;ta-magiques suivantes de votre choix. Vous en gagnez une autre au niveau 10 et 17. Vous ne pouvez utiliser qu'une seule option m&eacute;ta-magique sur un sort lorsque vous le lancez, sauf indication contraire.<br /><br /><span style="text-decoration: underline;">Sort de prudence</span><br /><em>Lorsque vous lancez un sort qui oblige d'autres cr&eacute;atures &agrave; faire un jet de sauvegarde, vous pouvez prot&eacute;ger certaines de ces cr&eacute;atures contre les effets du sort. Pour ce faire, vous d&eacute;pensez 1 point de sorcellerie et choisissez un nombre de cr&eacute;atures &eacute;gal &agrave; votre modificateur de Intelligence (au moins une cr&eacute;ature). Une cr&eacute;ature choisie r&eacute;ussit automatiquement son jet de sauvegarde contre le sort.</em><br /><br /><span style="text-decoration: underline;">Sort &agrave; distance</span><br /><em>Lorsque vous lancez un sort dont la port&eacute;e est de 2 cases ou plus, vous pouvez d&eacute;penser 1 point de sorcellerie pour doubler la port&eacute;e du sort.</em><br /><em>Lorsque vous lancez un sort qui a une port&eacute;e de toucher, vous pouvez d&eacute;penser 1 point de sorcellerie pour que la port&eacute;e du sort soit de 10 cases.</em><br /><br /><span style="text-decoration: underline;">Sort puissant</span><br /><em>Lorsque vous effectuez un jet de d&eacute;g&acirc;ts pour un sort, vous pouvez d&eacute;penser 1 point de sorcellerie pour relancer un nombre de d&eacute;s de d&eacute;g&acirc;ts &eacute;gal &agrave; votre modificateur d'intelligence (minimum 1). Vous devez ensuite utiliser les nouveaux jets de d&eacute;g&acirc;ts. Vous pouvez relancer ce sort autant de fois que vous le souhaitez tant que vous avez assez de point de sorcellerie &agrave; disposition.</em><br /><br /><span style="text-decoration: underline;">Sort prolong&eacute;</span><br /><em>Lorsque vous lancez un sort dont la dur&eacute;e est de 1 tour ou plus, vous pouvez d&eacute;penser 1 point de sorcellerie pour doubler sa dur&eacute;e. Vous pouvez doubler la dur&eacute;e autant de fois que vous avez de point de sorcellerie jusqu'&agrave; un maximum de 24 tours.</em><br /><br /><span style="text-decoration: underline;">Sort intensifi&eacute;</span><br /><em>Lorsque vous lancez un sort qui oblige une cr&eacute;ature &agrave; faire un jet de sauvegarde pour r&eacute;sister &agrave; ses effets, vous pouvez d&eacute;penser 3 points de sorcellerie pour donner &agrave; une cible du sort un d&eacute;savantage sur son spanmier jet de sauvegarde effectu&eacute; contre le sort.</em><br /><br /><span style="text-decoration: underline;">Sort acc&eacute;l&eacute;r&eacute;</span><br /><em>Lorsque vous lancez un sort dont le temps d'incantation est de 1 action, vous pouvez d&eacute;penser 2 points de sorcellerie pour changer le temps d'incantation &agrave; 1 action bonus pour ce sort.</em><br /><br /><span style="text-decoration: underline;">Sort jumel&eacute;</span><br /><em>Lorsque vous lancez un sort qui ne cible qu'une seule cr&eacute;ature et qui n'a pas une port&eacute;e de soi, vous pouvez d&eacute;penser un nombre de points de sorcellerie &eacute;gal au niveau du sort pour cibler une deuxi&egrave;me cr&eacute;ature &agrave; port&eacute;e avec le m&ecirc;me sort. Pour &ecirc;tre &eacute;ligible, un sort doit &ecirc;tre incapable de cibler plus d'une cr&eacute;ature au niveau actuel du sort.<br /></em></span>
+                                <br>
+                                <span style="font-size: 14px; font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Caract&eacute;ristique augment&eacute;e</span></strong></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Lorsque vous atteignez le niveau 4, puis de nouveau aux niveaux 8, 12, 16 et 19, vous pouvez augmenter de 2 une valeur de caract&eacute;ristique de votre choix, ou vous pouvez augmenter de 1 deux valeurs de caract&eacute;ristique de votre choix. Comme d'habitude, vous ne pouvez pas augmenter un score de capacit&eacute; au-dessus de 20 en utilisant cette fonctionnalit&eacute;.</span><span style="font-family: arial, helvetica, sans-serif;"><br /><br /></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Ma&icirc;trise des sorts</b></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Tu as atteint une telle ma&icirc;trise de certains sorts que vous pouvez les lancer &agrave; volont&eacute;.&nbsp;Choisissez un sort de mage de niveau 1 et 2 qui se trouvent dans votre livre de sorts. Vous pouvez lancer ces sorts sans d&eacute;penser de mana. Si vous voulez lancer l'un ou l'autre de ces sorts &agrave; un niveau plus &eacute;lev&eacute;, vous devez d&eacute;penser le montant de mana du niveau de sort.<br /><br /><span style="font-size: 18px;"><b>Sorts de signature</b></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Tu as atteint une telle ma&icirc;trise de certains sorts que vous pouvez les lancer &agrave; volont&eacute;.&nbsp;Choisissez deux sort de mage de niveau 3 qui se trouvent dans votre livre de sorts. Vous pouvez lancer ces sorts sans d&eacute;penser de mana. Si vous voulez lancer l'un ou l'autre de ces sorts &agrave; un niveau plus &eacute;lev&eacute;, vous devez d&eacute;penser le montant de mana du niveau de sort.</span>
+                              </div>
+                          <div role="tabpanel" class="tab-pane" id="magearcanes">
+                              <br>
+                              <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><strong>&Eacute;tude des Arcanes<br /></strong></span></span>
+                              <hr />
+                              <span style="font-family: arial, helvetica, sans-serif;">Les mages de l'arcane sont des devins des secrets, &eacute;quilibrant les flux et reflux d'incroyables &eacute;nergies mystiques. Ces praticiens poussent leurs connaissances magiques jusqu'&agrave; leurs limites. Ceux qui ma&icirc;trisent ce m&eacute;tier sont capables de manipuler des sorts &agrave; un niveau beaucoup plus primitif.<br /></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Bonus de dons</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 2</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Lorsque vous choisissez cette &eacute;tude des arcanes au niveau 2, vous apspannez le don "spanstidigitation". Si vous connaissez d&eacute;j&agrave; ce don, vous apspannez un autre don de mage de votre choix. Le don ne compte pas dans votre nombre de dons connus.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Charges arcaniques</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 2</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Vous gagnez la capacit&eacute; de conserver et d'am&eacute;liorer vos capacit&eacute;s de mage au-del&agrave; de la norme. Chaque fois que vous lancez un sort de mage</span><br /><span style="font-family: arial, helvetica, sans-serif;">de 1er niveau ou plus, vous gagnez une charge arcanique du niveau &eacute;quivalent jusqu'au 5&egrave;me niveau. Ces charges durent&nbsp;jusqu'&agrave; la fin du combat. Vous pouvez d&eacute;penser une charge d'arcane pour vous accorder un des effets suivants. Cet effet dure jusqu'&agrave; la fin de votre prochain tour.</span><br /><span style="font-family: arial, helvetica, sans-serif;">- <em>En tant qu'action bonus, vous pouvez ajouter un bonus &eacute;gal au niveau de la charge arcanique aux jets d'attaque et de d&eacute;g&acirc;ts.</em></span><br /><span style="font-family: arial, helvetica, sans-serif;">- <em>Comme action ou r&eacute;action bonus, vous pouvez ajouter un bonus &eacute;gal au niveau de la charge arcanique aux jets de sauvegarde contre la magie ou les effets magiques.<br /></em></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>D&eacute;placement chronologique</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 2</em></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><br />Apr&egrave;s le jet d'initiative, mais avant que la spanmi&egrave;re cr&eacute;ature ne spannne son tour, vous pouvez &eacute;changer votre r&eacute;sultat avec le r&eacute;sultat d'une autre cr&eacute;ature que vous pouvez voir. Vous pouvez utiliser cette comp&eacute;tence &agrave; chaque combat.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Brillance des arcanes</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 6</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Vous gagnez la comp&eacute;tence Arcane si vous ne la poss&eacute;dez pas d&eacute;j&agrave;. Votre bonus de comp&eacute;tence est doubl&eacute; pour tous les tests d'aptitude que vous effectuez avec cette comp&eacute;tence.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Pr&eacute;sence d'esprit</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 10<br /></em></span></span><span style="font-family: arial, helvetica, sans-serif;">Vous apspannez &agrave; siphonner l'&eacute;nergie arcanique de la magie nuisible pour votre prospan b&eacute;n&eacute;fice. Lorsque vous faites un jet de sauvegarde contre un sort, vous pouvez utiliser votre r&eacute;action pour vous donner un avantage sur le jet. Si vous &eacute;chouez, vous subissez l'effet du sort, mais vous ne subissez que la moiti&eacute; des d&eacute;g&acirc;ts (s'il y en a). Que votre jet de sauvegarde r&eacute;ussisse ou &eacute;choue, vous gagnez des charges arcaniques comme si vous aviez lanc&eacute; le sort.</span></span>
+                              <br>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Savant</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 10</em></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><br />Une fois par combat, vous pouvez concentrer un nombre de point de mana pour modifier le d&eacute;s d'attaque d'une attaque magique ou m&ecirc;l&eacute;e. Vous ne pouvez pas exc&eacute;der 24d.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Distorsion du temps</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude des arcanes de niveau 14</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Vous pouvez exercer votre contr&ocirc;le sur la magie pour d&eacute;former le temps lui-m&ecirc;me. Quand une cr&eacute;ature que vous pouvez voir &agrave; moins de 20 cases de vous commence son tour, vous pouvez utiliser votre r&eacute;action pour permettre &agrave; cette cr&eacute;ature d'effectuer une action suppl&eacute;mentaire pendant son tour.</span></span>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="magefeu">
+                              <br>
+                              <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><strong>&Eacute;tude du Feu<br /></strong></span></span>
+                              <hr />
+                              <span style="font-family: arial, helvetica, sans-serif;">Alors que tout mage digne de ce nom est un expert in&eacute;gal&eacute; dans l'utilisation de la magie et fortement d&eacute;vou&eacute; &agrave; son art, ceux qui ma&icirc;trisent les forces du feu ont tendance &agrave; &ecirc;tre un peu plus audacieux que leurs pairs. Ces mages sont fiers, et spannnent m&ecirc;me plaisir, &agrave; enflammer leurs ennemis dans de folles explosions de flammes.</span>
+                              <br>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Bonus de dons</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de feu de niveau 2</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Lorsque vous choisissez cette &eacute;tude des arcanes au niveau 2, vous apspannez le don "Contr&ocirc;le des flammes". Si vous connaissez d&eacute;j&agrave; ce don, vous apspannez un autre don de mage de votre choix. Le don ne compte pas dans votre nombre de dons connus.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Trait de feu</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de feu de niveau 2</em></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><br />L'&eacute;nergie br&ucirc;lante de vos sorts s'intensifie. Lorsque vous lancez de d&eacute;g&acirc;ts pour un sort et que vous obtenez le plus grand nombre possible sur n'importe quel d&eacute;, choisissez l'un de ces d&eacute;s, relancez-le et ajoutez ce r&eacute;sultat aux d&eacute;g&acirc;ts. Vous ne pouvez utiliser cette caract&eacute;ristique une fois par tour. Au niveau 10, vous pouvez utiliser les d&eacute;s deux avec les valeurs les plus &eacute;lev&eacute;es.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Caut&eacute;risation</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de feu de niveau 6</em></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><br />Si vous &ecirc;tes r&eacute;duit &agrave; 0 point de vie, vous pouvez utiliser votre r&eacute;action pour puiser dans l'&eacute;nergie ardente qui br&ucirc;le en vous. vous &ecirc;tes r&eacute;duit &agrave; 1 point de vie, et chaque cr&eacute;ature dans les 4 cases de vous subit des d&eacute;g&acirc;ts de feu &eacute;gaux &agrave; la moiti&eacute; de votre niveau de mage + votre modificateur d'Intelligence. Cette comp&eacute;tence n'est utilisable qu'une fois par combat.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Immolation</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de feu de niveau 10</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Lorsque vous infligez des d&eacute;g&acirc;ts de feu avec un sort utilisant un&nbsp;niveau de mana entre le niveau 1 et 5, vous pouvez d&eacute;penser jusqu'&agrave; 3 points de sorcellerie pour le renforcer. Pour chaque point de sorcellerie d&eacute;pens&eacute;, ajoutez un d&eacute; suppl&eacute;mentaire aux d&eacute;g&acirc;ts inflig&eacute;s par le sort.</span></span>
+                              <br>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Combustion</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de feu de niveau 14</em></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><br />Vous pouvez lib&eacute;rer les flammes qui br&ucirc;lent en vous. En tant qu'action, vous vous enveloppez dans un feu tourbillonnant. Pendant 3 tours, vous gagnez les avantages suivants :<br />- Vous projetez une lumi&egrave;re vive dans un rayon de 10 cases et une lumi&egrave;re faible sur une distance suppl&eacute;mentaire de 10 cases.<br />- Toute cr&eacute;ature subit des d&eacute;g&acirc;ts de feu &eacute;gaux &agrave; la moiti&eacute; de votre niveau de mage, si elle vous touche avec une attaque de m&ecirc;l&eacute;e.<br />- Tout sort ou effet que vous cr&eacute;ez ignore la r&eacute;sistance aux d&eacute;g&acirc;ts du feu et traite l'immunit&eacute; aux d&eacute;g&acirc;ts de feu comme une r&eacute;sistance aux d&eacute;g&acirc;ts du feu.<br />- Vous &ecirc;tes immunis&eacute; contre les d&eacute;g&acirc;ts de feu et avez une r&eacute;sistance aux d&eacute;g&acirc;ts du froid.<br />- Vos attaques de sorts obtiennent un coup critique sur un jet de 19 ou 20 sur le d20.<br />Une fois que vous utilisez cette caract&eacute;ristique, vous ne pouvez pas l'utiliser &agrave; nouveau jusqu'au prochain combat, &agrave; moins que vous ne d&eacute;pensiez 5 points de sorcellerie pour l'utiliser &agrave; nouveau.</span></span>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="magegivre">
+                              <br>
+                              <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><strong>&Eacute;tude du Givre<br /></strong></span></span>
+                              <hr />
+                              <br>
+                              <span style="font-family: arial, helvetica, sans-serif;">Les mages de givre se distinguent de leurs coll&egrave;gues, en ce sens, leur &eacute;cole de magie choisie se concentre sur le maintien d'un contr&ocirc;le supr&ecirc;me sur les capacit&eacute;s de leurs ennemis. Les mages qui commandent le gel font des d&eacute;monstrations glaciales sur le champ de bataille, rendant les ennemis immobiles alors qu'ils les bombardent de glace.<br /></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Bonus de dons</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de givre de niveau 2</em></span></span><span style="font-family: arial, helvetica, sans-serif;"><br />Lorsque vous choisissez cette &eacute;tude des arcanes au niveau 2, vous apprenez le don "Forme d'eau". Si vous connaissez d&eacute;j&agrave; ce don, vous apprenez un autre don de mage de votre choix. Le don ne compte pas dans votre nombre de dons connus.<br /></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Doigts glacial</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de givre de niveau 2<br /></em></span>Vous gagnez une des caract&eacute;ristiques suivantes de votre choix :<br /><br /><span style="text-decoration: underline;">Barri&egrave;re de glace.</span><br /><span style="font-size: 14px; color: #808080;"><em>Tu peux tisser un halo de froid autour de toi pour te prot&eacute;ger. Lorsque vous lancez un sort de niveau 1 ou plus qui inflige des d&eacute;g&acirc;ts de froid &agrave; une cr&eacute;ature, vous pouvez simultan&eacute;ment d&eacute;former une partie de la magie de ce sort pour cr&eacute;er une barri&egrave;re de glace qui dure jusqu'&agrave; ce que vous ayez termin&eacute; le combat. La barri&egrave;re a un nombre de points de vie &eacute;gal &agrave; deux fois votre niveau de mage + votre modificateur d'Intelligence. Chaque fois que vous subissez des d&eacute;g&acirc;ts, la barri&egrave;re les subit &agrave; votre place. Si les d&eacute;g&acirc;ts r&eacute;duisent la barri&egrave;re &agrave; 0 point de vie, vous subissez les d&eacute;g&acirc;ts restants. Lorsque la barri&egrave;re est r&eacute;duite &agrave; 0 points de vie, chaque cr&eacute;ature dans un rayon de 4 cases autour de vous voit sa vitesse r&eacute;duite de 4 cases jusqu'au d&eacute;but de votre prochain tour. Tant que la barri&egrave;re a 0 point de vie, elle ne peut pas absorber de d&eacute;g&acirc;ts, mais sa magie demeure. Chaque fois que vous lancez un sort de niveau 1 ou plus qui inflige des d&eacute;g&acirc;ts de froid, la barri&egrave;re regagne un nombre de points de vie &eacute;gal &agrave; deux fois le niveau du sort.<br /></em></span></span></span>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="text-decoration: underline;">El&eacute;mentaire d'eau.</span><br /><span style="font-size: 14px; color: #808080;"><em>Vous apprenez &agrave; conjurer un &eacute;l&eacute;mentaire d'eau. Il est amical envers vous et vos compagnons, et il ob&eacute;it &agrave; vos ordres. En combat, l'&eacute;l&eacute;mentaire d'eau partage votre initiative, mais il prend son tour imm&eacute;diatement apr&egrave;s le v&ocirc;tre. Il peut se d&eacute;placer et utiliser ses r&eacute;actions, mais la seule action qu'il entreprend &agrave; son tour est l'action d'Esquive, &agrave; moins que vous ne preniez une action bonus pour lui ordonner une de ses actions possibles. Si vous ciblez l'&eacute;l&eacute;mentaire d'eau avec un sort qui inflige des d&eacute;g&acirc;ts de froid, il est consid&eacute;r&eacute; comme immunis&eacute; et regagne un nombre de points de vie &eacute;gal &agrave; celui-ci. Vous n'avez pas besoin de faire un jet pour toucher votre &eacute;l&eacute;mentaire. Vous ne pouvez invoquer qu'un &eacute;l&eacute;mentaire &agrave; la fois, s'il meurt en combat, vous ne pouvez pas en r&eacute;invoquer un nouveau avant la fin du combat.<br /></em></span></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Gel du cerveau</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de givre de niveau 6<br /></em><span style="font-size: 14px;">Chaque fois qu'une cr&eacute;ature subit des d&eacute;g&acirc;ts de froid par l'un de vos sorts de mage, sa vitesse de d&eacute;placement est r&eacute;duite de 4 cases jusqu'&agrave; la fin de votre prochain tour. Quand une cr&eacute;ature a sa vitesse r&eacute;duite de cette fa&ccedil;on, vous pouvez pouvez d&eacute;penser un point de sorcellerie : cette cr&eacute;ature doit r&eacute;ussir un jet de sauvegarde de Force contre le DC de sauvegarde de votre sort pour l'immobiliser pendant 1 tour. Si une cr&eacute;ature r&eacute;ussit un succ&egrave;s contre votre mage, les effets sont imm&eacute;diatement dissip&eacute;s. A partir du 14&egrave;me niveau, la cr&eacute;ature devient paralys&eacute;e au lieu d'&ecirc;tre ralentie.<br /></span></span></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Main de givre</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de givre de niveau 10<br /></em><span style="font-size: 14px;">Vous gagnez l'une des caract&eacute;ristiques suivantes, en fonction de votre choix au 2&egrave;me niveau.<br /></span></span></span><span style="font-family: arial, helvetica, sans-serif;"><span style="text-decoration: underline;">Barri&egrave;re de glace.</span><br /><span style="font-size: 14px; color: #808080;"><em>Lorsqu'une cr&eacute;ature que vous pouvez voir dans un rayon de 10 cases de vous subit des d&eacute;g&acirc;ts, vous pouvez utiliser votre r&eacute;action pour que votre barri&egrave;re de glace se manifeste autour d'elle et absorbe les d&eacute;g&acirc;ts. Si ces d&eacute;g&acirc;ts r&eacute;duisent la barri&egrave;re &agrave; 0 point de vie, la cr&eacute;ature subit les d&eacute;g&acirc;ts restants. De plus, vous pouvez maintenant d&eacute;penser des points de sorcellerie pour provoquer l'effet de Gel du cerveau.<br /></em></span></span></span>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="text-decoration: underline;">El&eacute;mentaire d'eau.<br /></span></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px; color: #808080;"><em>Votre &eacute;l&eacute;mentaire d'eau se transforme en un &eacute;l&eacute;mentaire de glace et gagne les avantages suppl&eacute;mentaires suivants :<br />- Il gagne l'immunit&eacute; aux d&eacute;g&acirc;ts du froid.<br />- Gel de cerveau s'applique d&eacute;sormais aux d&eacute;g&acirc;ts de froid caus&eacute;s par les &eacute;l&eacute;mentaires.<br />- Il peut lancer le sort temp&ecirc;te de neige fondue une fois par combat en se basant sur votre DD de sauvegarde contre les sorts.<br /></em></span></span></span>
+                              <br>
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Anneau de givre</b></span></span></span>
+                              <hr />
+                              <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><em>&Eacute;tude de givre de niveau 14<br /></em></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Vous pouvez utiliser votre action pour conjurer un anneau de runes magiques pour invoquer le froid le plus profond autour d'un point que vous pouvez choisir dans un rayon de 20 cases. L'anneau a un rayon de 10 cases et remplit de froid glacial un cylindre de 3 m&egrave;tres de haut. Les cr&eacute;atures &agrave; l'int&eacute;rieur de la zone doivent r&eacute;ussir un jet de sauvegarde de force contre le DC de sauvegarde de votre sort pour ne pas &ecirc;tre congel&eacute; pendant 3 tours jusqu'&agrave; ce qu'elle subisse des d&eacute;g&acirc;ts. Si le corps d'une cr&eacute;ature est enti&egrave;rement &agrave; l'int&eacute;rieur de la zone, la sauvegarde est effectu&eacute;e avec un d&eacute;savantage. Si la sauvegarde est r&eacute;ussie, la cr&eacute;ature n'est pas retenue. De plus, les cr&eacute;atures qui traversent la zone par des moyens non magiques voient leur vitesse de d&eacute;placement r&eacute;duite de moiti&eacute; jusqu'&agrave; la fin de leur prochain tour apr&egrave;s avoir quitt&eacute; la zone. De plus, les attaques &agrave; distance effectu&eacute;es &agrave; travers la zone sont congel&eacute;s avant d'atteindre leur cible.</span></span>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <div class="classCaracBloc">
+                          <p style="text-align: center;"><img src="/assets/images/classes/logo/mage_logo.png" class="logoClass"></p>
+                          <h3>Fiche du Mage</h3>
+                          <b>Caractéristique du Mage :</b>
+                          <br>
+                          <ul>
+                            <li><b>Dés de vie :</b> <p style="color: rgb(0, 0, 0)">1d6 par niveau de mage</p></li>
+                            <li><b>Points de vie au niveau 1 :</b> <p style="color: rgb(0, 0, 0)">6 + votre modificateur de Constitution</p></li>
+                            <li><b>Points de vie aux niveaux supérieurs :</b> <p style="color: rgb(0, 0, 0)">1d6 (ou 4) + votre modificateur de Constitution par niveau de mage</p></li>
+                          </ul>
+                          <br>
+                          <b>Armures :</b> Tissu
+                          <br><br>
+                          <b>Armes :</b> Armes simples
+                          <br><br>
+                          <b>Caractéristique du Mage :</b> Intelligence, Sagesse
+                          <br><br>
+                          <b>Compétence du Mage :</b> Choisissez deux compétences parmi Arcanes, Histoire, Perspicacité, Médecine, Investigation, Religion
+                          <br><br>
+                          <b>Équipement du Mage :</b> Vous commencez avec un bâton en bois courbé, une robe en tissu et un livre de sort
+                          <br><br>
+                          <b>Races jouables :</b>
+                          <div class="row">
+                              <div class="col-xs-6 valign-middle margin-top-5">
+                                  <img src="/assets/images/classes/portrait_races/draenei.jpg" class="square-40">
+                                  <a href="/races/draenei"><img src="/assets/images/faction/alliance.png" class="square-20"> Draenei</a>
+                              </div>
+                              <div class="col-xs-6 valign-middle margin-top-5">
+                                  <img src="/assets/images/classes/portrait_races/elfesang.jpg" class="square-40">
+                                  <a href="/races/elfesang"><img src="/assets/images/faction/horde.png" class="square-20"> Elfe de Sang</a>
+                              </div>
+                              <div class="col-xs-6 valign-middle margin-top-5">
+                                <img src="/assets/images/classes/portrait_races/gnome.jpg" class="square-40">
+                                <a href="/races/gnome"><img src="/assets/images/faction/alliance.png" class="square-20"> Gnome</a>
+                            </div>
+                            <div class="col-xs-6 valign-middle margin-top-5">
+                              <img src="/assets/images/classes/portrait_races/reprouve.jpg" class="square-40">
+                              <a href="/races/reprouve"><img src="/assets/images/faction/horde.png" class="square-20"> Réprouvé</a>
+                          </div>
+                          <div class="col-xs-6 valign-middle margin-top-5">
+                            <img src="/assets/images/classes/portrait_races/humain.jpg" class="square-40">
+                            <a href="/races/humain"><img src="/assets/images/faction/alliance.png" class="square-20"> Humain</a>
+                        </div>
+                        <div class="col-xs-6 valign-middle margin-top-5">
+                          <img src="/assets/images/classes/portrait_races/troll.jpg" class="square-40">
+                          <a href="/races/troll"><img src="/assets/images/faction/horde.png" class="square-20"> Troll</a>
+                      </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+  </section>
+</body>

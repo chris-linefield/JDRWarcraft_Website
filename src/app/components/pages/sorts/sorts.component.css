@@ -19,6 +19,13 @@ html, p, li {
   color: #ebdec2 ;
 }
 
+.content{
+  margin-top: 0.3rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  height: 100%;
+}
+
 input[type=number],
 input[type=text],
 option,
