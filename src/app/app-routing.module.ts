@@ -3,7 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChronologieComponent } from './components/pages/chronologie/chronologie.component';
 import { ChamanComponent } from './components/pages/classes/chaman/chaman.component';
 import { ClassesComponent } from './components/pages/classes/classes.component';
+import { DruideComponent } from './components/pages/classes/druide/druide.component';
 import { GuerrierComponent } from './components/pages/classes/guerrier/guerrier.component';
+import { MageComponent } from './components/pages/classes/mage/mage.component';
 import { PaladinComponent } from './components/pages/classes/paladin/paladin.component';
 import { ForgotPasswordComponent } from './components/pages/forgot-password/forgot-password.component';
 import { HomeComponent } from './components/pages/home/home.component';
@@ -46,6 +48,8 @@ const routes: Routes = [
   { path: 'classes/chaman', component: ChamanComponent},
   { path: 'classes/paladin', component: PaladinComponent},
   { path: 'classes/guerrier', component: GuerrierComponent},
+  { path: 'classes/druide', component: DruideComponent},
+  { path: 'classes/mage', component: MageComponent},
   { path: 'sorts', component: SortsComponent},
   { path: 'chronologie', component: ChronologieComponent},
   { path: 'connexion', component: LoginComponent},

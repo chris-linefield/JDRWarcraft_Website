@@ -1,1 +1,883 @@
-<p>druide works!</p>
+<body>
+    <section class="container">
+        <div id="classContainer"><h1>Le Druide</h1>
+            <h4 class="color-druid">Changeforme Féroce</h4>
+            <div class="classSection">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <p class="italic">Les Druides font appel aux vastes pouvoirs de la nature pour préserver son équilibre et protéger la vie. Avec de l’expérience, les Druides peuvent déchaîner les énergies brutes de la nature contre leurs ennemis et faire s’abattre à distance sur eux la fureur des cieux, les immobiliser avec des sarments enchantés ou les piéger dans des cyclones sans fin.</p>
+                        <p class="color-white">Les Druides peuvent envisager le combat sous de nombreux angles : ils peuvent en effet remplir <b class="color-gold">tous les rôles</b> (soigneurs, tanks, dégâts au corps à corps ou à distance) mais doivent bien garder à l’esprit les exigences de chacun d’entre eux. Ainsi, il est capital qu’ils choisissent la forme adaptée aux situations rencontrées, car chacune de ces formes a une finalité bien particulière: <b class="color-gold">l'ours</b> pour le tank, <b class="color-gold">le félin</b> pour le corps à corps, etc...</p>
+                        <h3>Présentation du Druide</h3>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#druidbase" aria-controls="home" role="tab" data-toggle="tab">
+                                    <img class="round-50" src="/assets/images/classes/druide.jpg">
+                                </a>
+                            </li>
+                            <li role="presentation">
+                              <a href="#druidsorts" aria-controls="profile" role="tab" data-toggle="tab">
+                                  <img class="round-50" src="/assets/images/classes/specialisation/drui_sorts.png">
+                              </a>
+                          </li>
+                            <li role="presentation">
+                                <a href="#druidferal" aria-controls="profile" role="tab" data-toggle="tab">
+                                    <img class="round-50" src="/assets/images/classes/specialisation/drui_feral.jpg">
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#druidrestau" aria-controls="messages" role="tab" data-toggle="tab">
+                                    <img class="round-50" src="/assets/images/classes/specialisation/drui_restau.jpg">
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#druidequi" aria-controls="messages" role="tab" data-toggle="tab">
+                                    <img class="round-50" src="/assets/images/classes/specialisation/drui_equi.jpg">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="druidbase">
+                                <h4>Description générale</h4>
+                                <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <tbody>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv.</strong></th>
+                                    <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">M.B</th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Sorts</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Dons connus</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Affinit&eacute;s&nbsp;connus</strong></th>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 1</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Druidique</li>
+                                    <li>Lanceur de sorts</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>-</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 2</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Changement de forme</li>
+                                    <li>Voie druidique</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>-</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Affinit&eacute;s sauvages</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Caract&eacute;ristique augment&eacute;e</li>
+                                    <li>M&eacute;tamorphose am&eacute;lior&eacute;e</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 5</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 6</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Carac. de la voie druidique</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>2</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 7</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 8</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Caract&eacute;ristique augment&eacute;e</li>
+                                    <li>M&eacute;tamorphose am&eacute;lior&eacute;e</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 9</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <p>&nbsp;</p>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 10</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Carac. de la voie druidique</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>3</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 11</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 12</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Caract&eacute;ristique augment&eacute;e</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 13</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">&nbsp;</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 14</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Carac. de la voie druidique</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 15</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 16</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+5</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Caract&eacute;ristique augment&eacute;e</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 17</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">&nbsp;</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 18</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Corps intemporel</li>
+                                    <li>Esprit de la For&ecirc;t</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>5</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 19</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Caract&eacute;ristique augment&eacute;e</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>4</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><strong>6</strong></td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. 20</strong></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">+6</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                                    <ul>
+                                    <li>Carac. de la voie druidique</li>
+                                    </ul>
+                                    </td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>4</b></td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;"><b>6</b></td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                                    <p>&nbsp;</p>
+                                    <p><span style="color: #ffffff;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;">Sorts connus du Druide</span></strong></span></p>
+                                    <hr />
+                                    <p>&nbsp;</p>
+                                    <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <tbody>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. du druide</strong></th>
+                                    <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>I</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>II</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>III</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>IV</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>V</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>VI</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>VII</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>VIII</strong></th>
+                                    <th style="width: 50%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>IX</strong></th>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 5</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 6</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 7</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 8</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 9</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 10</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 11</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 12</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 13</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 14</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 15</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 16</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">-</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 17</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 18</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 19</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    </tr>
+                                    <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">Niv. 20</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">4</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">3</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">2</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    <td style="padding: 15px; border: 1px solid black; border-collapse: collapse;">1</td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;">Si un don sauvage a des conditions pr&eacute;alables, vous devez les remplir pour l'apprendre. Vous pouvez apprendre le don en m&ecirc;me temps que vous remplissez ses conditions pr&eacute;alables. Un pr&eacute;requis de niveau fait r&eacute;f&eacute;rence &agrave; votre niveau de druide.</span>
+                                    <br>
+                                    <br>
+                                    <strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;">Parole de b&ecirc;te</span></strong>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Vous pouvez lancer parler avec les animaux &agrave; volont&eacute; sans d&eacute;penser de mana.<br /><em><br /></em></span><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;">Alignement c&eacute;leste<br /></span></strong></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 5, Voie de l'&eacute;quilibre</span></span><span style="font-size: 12px;"><span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span></span></span><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute; en S&eacute;l&eacute;nien, vous pouvez relancer un jet d'attaque sur l'une de vos comp&eacute;tences.</span>
+                                    <br>
+                                    <br>
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Changement de forme rapide</b></span></span>
+                                    <hr />
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Vous &ecirc;tes capable de vous transformer en tant qu'action bonus &agrave; votre tour.</span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Cultivation</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 1, Voie de la restauration</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute; en Tr&eacute;ant, chaque fois que vous restaurez des points de vie &agrave; une cr&eacute;ature, celle-ci gagne &eacute;galement des points de vie temporaires &eacute;gal &agrave; votre modificateur de Sagesse.</span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>D&eacute;placement de la b&ecirc;te</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Vous pouvez utiliser un nombre de points de mana &eacute;gal &agrave; un sort de niveau II afin de bondir dans l'ombre et vous d&eacute;placer sur une case d'une distance de 10 cases autour de vous. </span></span>
+                                    <br>
+                                    <br>
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">&Eacute;lan de f&eacute;lin</span></strong></span>
+                                    <hr />
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Lorsque vous &ecirc;tes transform&eacute; en f&eacute;lin, vous pouvez vous d&eacute;placer sur des surfaces verticales &agrave; votre tour sans tomber.</span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Rapidit&eacute; farouche</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 5</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez effectuer l'action de course en tant que action bonus. Ce sort ne peut pas &ecirc;tre utilis&eacute; pour la forme de S&eacute;l&eacute;nien ou Tr&eacute;ant.</span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif; font-size: 18px;"><b>&Eacute;panouissement</b></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie de la restauration</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Une fois par tour, lorsque vous lancez relancer les d&eacute;s pour votre caract&eacute;ristique Rajeunissement, vous pouvez choisir d'utiliser les jets que vous souhaitez.</span><br /></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Germination</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 7, Voie de la restauration</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Chaque fois que vous utilisez Rajeunissement, vous pouvez d&eacute;penser 10 points de mana pour choisir une seconde cible dans la zone de la cible.</span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Grognement</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie f&eacute;rale</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez d&eacute;penser 2 points de mana pour lancer duel forc&eacute;.<br /></span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Chef de meute</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 4</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Toutes les cr&eacute;atures situ&eacute;es &agrave; moins de 20 cases de vous sont &eacute;galement affect&eacute;es par la caract&eacute;ristique de vitesse de d&eacute;placement de vos m&eacute;tamorphoses tant que vous ne subissez pas d'effet de ralentissement, d'immobilisation ou d'endormissement.<br /></span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>D&eacute;luge lunaire</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie de l'&eacute;quilibre, &eacute;clat lunaire requis</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous touchez une cible avec &eacute;clat lunaire, alors que vous &ecirc;tes m&eacute;tamorphos&eacute; en s&eacute;l&eacute;nien, la vitesse de d&eacute;placement de la cible est r&eacute;duite de 2 cases.<br /></span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Marque d'Ursoc</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie f&eacute;rale</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous &ecirc;tes transform&eacute; en ours, vous pouvez d&eacute;penser 4 de mana pour obtenir l'effet&nbsp;du sort "Agrandissement".<br /></span></span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Coup puissant</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie f&eacute;rale, niveau 5</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous touchez une autre cr&eacute;ature avec une attaque d'arme de m&ecirc;l&eacute;e alors que vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez tenter de l'&eacute;tourdir. La cible doit r&eacute;ussir un jet de sauvegarde de Constitution contre votre druide, si le jet &eacute;choue, elle est imm&eacute;diatement &eacute;tourdit, si le jet est r&eacute;ussi, elle est immunis&eacute; aux &eacute;tourdissements durant la totalit&eacute; du combat.</span><br /></span>
+                                    <br>
+                                    <br>
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Neuf vies</span></strong></span>
+                                    <hr />
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute; en chat ou en s&eacute;l&eacute;nien, vous pouvez utiliser vos r&eacute;flexes pour vous donner les b&eacute;n&eacute;fices d'un sort de chute de plumes</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">jusqu'&agrave; la fin de votre tour.<br /></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Focus de la nature</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie &eacute;quilibre ou restauration, niveau 11</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute; en S&eacute;l&eacute;nien ou Tr&eacute;ant, , vous ajoutez votre modificateur de sagesse &agrave; tous les jets de sauvegarde de constitution que vous pour maintenir votre concentration.</span><br /></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Fureur primitive</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 5</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;, vous b&eacute;n&eacute;ficiez d'un bonus de +1 &agrave; vos jets d'attaque et de d&eacute;g&acirc;ts aux armes de m&ecirc;l&eacute;e et aux jets de d&eacute;g&acirc;ts des armes de m&ecirc;l&eacute;e.<br /></span></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>R&ocirc;deur</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie f&eacute;rale</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Pendant que vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez d&eacute;penser 4 points de mana pour lancer le sort invisibilit&eacute; sur vous.</span><br /></span>
+                                    <br>
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Renouvellement</b></span></span>
+                                    <hr />
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez d&eacute;penser 4 points de mana pour lancer le sort "Soins mineurs" sur vous-m&ecirc;me. Une fois le niveau 10 atteint, vous pouvez d&eacute;penser 10 points de mana pour lancer le sort "Soins majeurs".</span>
+                                    <br>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Coup de cr&acirc;ne</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 5</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Pendant que vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez lancer un contre-sort une fois en utilisant le mana &eacute;quivalent &agrave; un sort de niveau 5 mais seulement comme un sort de toucher.<br /></span></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>D&eacute;rive solaire</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie de l'&eacute;quilibre, feu stellaire requis</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Quand vous lancez feu stellaire, alors que vous &ecirc;tes m&eacute;tamorphos&eacute; en s&eacute;l&eacute;nien, la port&eacute;e du sort augmente de 40 cases.<br /></span></span>
+                                    <br>
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Rugissement &eacute;tourdissant</b></span></span>
+                                    <hr />
+                                    <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Pendant que vous &ecirc;tes m&eacute;tamorphos&eacute;, vous pouvez d&eacute;penser un nombre de mana &eacute;gal &agrave; un sort de niveau I ou plus et choisir un nombre quelconque de cr&eacute;atures dans un rayon de 20 cases de vous, chaque cr&eacute;ature ont leur vitesse de mouvement de base augment&eacute;e de 3 cases jusqu'au prochain tour.<br /></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Feu du soleil</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie de l'&eacute;quilibre, feu stellaire requis</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous frappez une cible avec feu stellaire alors que vous &ecirc;tes m&eacute;tamorphos&eacute; en Gardien, la cible doit r&eacute;ussir un jet de sauvegarde de Constitution</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">contre le DC de sauvegarde de votre sort pour ne pas &ecirc;tre aveugl&eacute; jusqu'au prochain tour.</span><br /></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Instinct de survie</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie f&eacute;rale</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute; en ours, si vous &ecirc;tes r&eacute;duit &agrave; 0 point de vie par une attaque ou un sort, votre fureur vous emp&ecirc;che de tomber et vous laisse &agrave; 1 point de vie.<br /></span></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Peau &eacute;paisse</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 5</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;, vous ajoutez +1 &agrave; votre Classe d'Armure.<br /></span></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Esprit tranquille</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 11, voie de la restauration</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous vous transformez en tr&eacute;ant, vous n'&ecirc;tes plus ralenti par le sort tranquillit&eacute; et pouvez utiliser la totalit&eacute; de vos mouvements.<br /></span></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Lunes jumelles</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Niveau 7, voie de l'&eacute;quilibre, &eacute;clat lunaire requis</span><br /><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Lorsque vous lancez &eacute;clat lunaire alors que vous &ecirc;tes m&eacute;tamorphos&eacute;e en S&eacute;l&eacute;nien, vous pouvez choisir deux cibles m&ecirc;me si elles sont loin l'une de l'autre, vous devez n&eacute;ant respecter la port&eacute;e du sort.<br /></span></span>
+                                    <br>
+                                    <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Faveur d'Ursol</b></span></span>
+                                    <hr />
+                                    <span style="font-size: 12px;"><span style="font-family: arial, helvetica, sans-serif;">Pr&eacute;requis :&nbsp;Voie f&eacute;rale<br /></span><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Vous pouvez utiliser la Marque d'Ursol un nombre de fois &eacute;gal &agrave; votre modificateur de sagesse.</span></span>
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </span>
+        </span>
+    </span>
+</span>
+</span>
+</div>
+                                <div role="tabpanel" class="tab-pane" id="druidsorts">
+                                  <h4>Sorts du Druide</h4>
+                                  <br>
+                                  <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Druidique</b></span></span>
+                                  <hr />
+                                  <span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><span style="font-size: 14px;">Vous connaissez le druidique, le langage secret des druides. Vous pouvez parler, lire et &eacute;crire le druidique, une langue sacr&eacute;e pour les druides. qui n'est pas enseign&eacute;e aux &eacute;trangers sans cons&eacute;quences graves pour le professeur et l'enseign&eacute;.<br /><br /></span></span></span><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Lanceur de sort</span></strong></span>
+                                  <hr />
+                                  <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span class="Y2IQFc" lang="fr">Puisant dans l'essence divine de la nature elle-m&ecirc;me, vous pouvez lancer des sorts pour fa&ccedil;onner cette essence selon votre volont&eacute;. </span>Au niveau 1, vous connaissez deux sorts mineurs de votre choix dans la liste des sorts du druide. Vous apprenez des sorts mineurs de druide suppl&eacute;mentaires de votre choix &agrave; des niveaux plus &eacute;lev&eacute;s, comme indiqu&eacute; dans la colonne Sorts connus du tableau des druides. La sagesse est votre capacit&eacute; d'incantation pour vos sorts de druide, puisque votre magie puise dans votre d&eacute;votion et votre harmonisation avec la nature. Vous utilisez votre Sagesse chaque fois qu'un sort fait r&eacute;f&eacute;rence &agrave; votre capacit&eacute; d'incantation. De plus, vous utilisez votre modificateur de Sagesse lorsque vous d&eacute;finissez le DD du jet de sauvegarde pour un sort de druide que vous lancez et lorsque vous effectuez un jet d'attaque avec celui-ci.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><em>Jet de Sauvegarde =</em> <em>8 + votre ma&icirc;trise bonus + votre mod. de Sagesse</em></span><br /><span style="font-family: arial, helvetica, sans-serif;"><em>Modification d'attaque des sorts =</em> <em>Votre ma&icirc;trise bonus + votre mod. de Sagesse<br /></em></span><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;"><b><span style="color: #ff0000;">Vous utilisez un symbole druidique pour lancer des sorts de Druide, quelque soit le niveau.</span><br /></b></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;"><br /></span><span style="font-size: 18px;"><b>Changement de forme</b></span><br /></span></span>
+                                  <hr />
+                                  <span id="tw-target-text" class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">A partir du 2&egrave;me niveau, vous pouvez utiliser votre action pour&nbsp;assumer magiquement une forme druidique. Il n'y a pas de limite &agrave; la fr&eacute;quence &agrave; laquelle<br /></span><span style="font-family: arial, helvetica, sans-serif;">vous pouvez vous m&eacute;tamorphoser en une forme que vous connaissez. Votre niveau de druide d&eacute;termine les formes en lesquelles vous pouvez vous transformer, comme indiqu&eacute; dans la table des m&eacute;tamorphoses ci-dessous. Au 2&egrave;me niveau, par exemple, vous pouvez vous transformer en chat ou en ours, parmi d'autres m&eacute;tamorphoses. Il n'y a pas de limite au temps que vous pouvez rester m&eacute;tamorphos&eacute;, le retour &agrave; votre forme normale est une action bonus. Vous retrouvez automatiquement votre forme d'origine si vous tombez inconscient, si vous tombez &agrave; 0 points de vie points de vie, ou si vous mourez.<br />Pendant votre transformation, les r&egrave;gles suivantes s'appliquent :<br />- Vous conservez vos statistiques de jeu, votre alignement et votre personnalit&eacute;. Lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;, vous &ecirc;tes consid&eacute;r&eacute; comme non arm&eacute;. et vous calculez votre classe d'armure en fonction de la forme.<br /></span><em><span style="font-family: arial, helvetica, sans-serif;">- </span></em><span style="font-family: arial, helvetica, sans-serif;">Quand vous changez de forme, vos points de vie ne changent pas, </span><span style="font-family: arial, helvetica, sans-serif;">et les d&eacute;g&acirc;ts subis lors de la transformation sont report&eacute;s sur </span><span style="font-family: arial, helvetica, sans-serif;">votre forme normale.<br /></span><em><span style="font-family: arial, helvetica, sans-serif;">- </span></em><span style="font-family: arial, helvetica, sans-serif;">Vous ne pouvez pas lancer de sorts, sauf si la forme dit le contraire, </span><span style="font-family: arial, helvetica, sans-serif;">et ta capacit&eacute; &agrave; parler ou &agrave; faire n'importe quelle action qui requiertt des mains est limit&eacute;e aux capacit&eacute;s de ta transformation. Cependant, la transformation ne rompt pas votre concentration sur un sort que vous avez d&eacute;j&agrave; lanc&eacute; ou vous emp&ecirc;che d'entreprendre actions qui font partie d'un sort, comme rayon de lune, que vous </span><span style="font-family: arial, helvetica, sans-serif;">que vous avez d&eacute;j&agrave; lanc&eacute;.<br /></span><em><span style="font-family: arial, helvetica, sans-serif;">- </span></em><span style="font-family: arial, helvetica, sans-serif;">Vous conservez le b&eacute;n&eacute;fice de toutes les caract&eacute;ristiques de votre classe, </span><span style="font-family: arial, helvetica, sans-serif;">race, ou toute autre source et peut les utiliser si le m&eacute;tamorphe est physiquement capable de le faire, en plus de gagner celles ceux de la forme. Cependant, tu ne peux utiliser aucun de tes sens sp&eacute;ciaux, comme la vision dans le noir, &agrave; moins que votre nouvelle </span><span style="font-family: arial, helvetica, sans-serif;">forme poss&egrave;de &eacute;galement ce sens.</span><em><span style="font-family: arial, helvetica, sans-serif;"><br /><br /></span></em><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Liste des formes</span></strong></span><br /></span></span>
+                                  <hr />
+                                  <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                  <tbody>
+                                  <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                  <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. du&nbsp;Druide</strong></th>
+                                  <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Sorts</strong></th>
+                                  </tr>
+                                  <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                  <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 2</td>
+                                  <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Forme de f&eacute;lin, Forme de l'ours, Forme du s&eacute;l&eacute;nien, Forme du tr&eacute;ant</td>
+                                  </tr>
+                                  <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                  <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 4</td>
+                                  <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Forme aquatique, Forme de voyage</td>
+                                  </tr>
+                                  <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                  <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 8</td>
+                                  <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Forme de vol</td>
+                                  </tr>
+                                  </tbody>
+                                  </table>
+                                  <p>&nbsp;<span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><b><br /><span style="font-size: 18px;">Voie du druide</span></b></span></span></p>
+                                  <hr />
+                                  <span style="font-family: arial, helvetica, sans-serif;">Au 2&egrave;me niveau, vous choisissez une voie druidique : &Eacute;quilibre, F&eacute;ral, ou Restauration, chacune d'entre elles &eacute;tant d&eacute;taill&eacute;e &agrave; la fin de la description de classe. Votre choix vous octroie des caract&eacute;ristiques au niveau 2 et &agrave; nouveau au niveau 6, niveau 10, niveau 14 et niveau 20.<br /></span><br /><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Affinit&eacute;s sauvages</b></span></span>
+                                  <hr />
+                                  <span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Apr&egrave;s vous &ecirc;tre accoutum&eacute; aux forces druidiques, vous avez appris &agrave; exploiter le v&eacute;ritable potentiel de ses pouvoirs et le potentiel de certaines formes.<br />Au niveau 3, vous gagnez deux affinit&eacute;s sauvages de votre choix. Vos options d'affinit&eacute;s sont d&eacute;taill&eacute;es &agrave; la fin de la description de la classe. Lorsque vous gagnez certains niveaux de druide, vous gagnez des affinit&eacute;s suppl&eacute;mentaires de votre choix, comme indiqu&eacute; dans le tableau ci-dessous.<br /><br />De plus, lorsque vous gagnez un niveau dans cette classe, vous pouvez choisir une des affinit&eacute;s que vous connaissez et la remplacer avec une autre affinit&eacute; que vous pourriez apprendre &agrave; ce niveau.<br /><em><br /></em><strong><span style="font-size: 18px;">Caract&eacute;ristique augment&eacute;e</span></strong></span>
+                                  <hr />
+                                  <span style="font-family: arial, helvetica, sans-serif;">Lorsque vous atteignez le niveau 4, puis de nouveau aux niveaux 8, 12, 16 et 19, vous pouvez augmenter de 2 une valeur de caract&eacute;ristique de votre choix, ou vous pouvez augmenter de 1 deux valeurs de caract&eacute;ristique de votre choix. Comme d'habitude, vous ne pouvez pas augmenter un score de capacit&eacute; au-dessus de 20 en utilisant cette fonctionnalit&eacute;.<br /><br /></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Corps intemporel</b></span></span>
+                                  <hr />
+                                  <span style="font-family: arial, helvetica, sans-serif;">&Agrave; partir du niveau 18, la magie primitive que vous maniez vous fait vieillir plus lentement. Pour chaque 10 ans qui passent, votre corps vieillit seulement d'1 an.<br /><br /><span style="font-size: 18px;"><b>Esprit de la for&ecirc;t</b></span></span>
+                                  <hr />
+                                  <span style="font-family: arial, helvetica, sans-serif;">A partir du niveau 18, votre connexion avec la nature se d&eacute;veloppe &agrave; de nouvelles longueurs, approfondissant votre lien avec la nature et vous permettant de conjurer une passerelle vers le r&ecirc;ve d'&eacute;meraude. En passant 10 minutes dans une zone de nature intacte, vous pouvez faire appara&icirc;tre un portail vers le r&ecirc;ve d'&eacute;meraude, l'entr&eacute;e scintille faiblement et mesure 1,5 m&egrave;tre de large et 3 m&egrave;tres de haut. Vous et toute cr&eacute;ature que vous d&eacute;signez lors de la conjuration de la passerelle peuvent entrer dans le r&ecirc;ve d'&eacute;meraude aussi longtemps que le portail reste ouvert. Vous pouvez ouvrir et fermer le portail si vous &ecirc;tes &agrave; moins de 10 cases de lui. Lorsqu'elle est ferm&eacute;e, la passerelle sur Azeroth s'effrite et devient invisible. Le portail reste conjur&eacute; pendant 24 heures, apr&egrave;s quoi il s'effrite enti&egrave;rement et ne peut plus &ecirc;tre conjur&eacute; pendant 7 jours. De plus, les b&ecirc;tes et les plantes des r&eacute;gions sauvages peuvent ressentir votre lien avec la nature, vous donnant un avantage sur tous les tests et aptitudes pour communiquer avec eux.</span>                                  
+                                </span>  
+                                </span>
+                                </div>
+                            <div role="tabpanel" class="tab-pane" id="druidferal">
+                                <br>
+                                <span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Sp&eacute;cialisation Féral</strong></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Les druides sur la voie du F&eacute;ral ressentent une connexion plus profonde avec la nature sauvage et ses cr&eacute;atures que les autres druides, et pr&eacute;f&egrave;rent</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">la forme d'un animal f&eacute;roce plut&ocirc;t que celle d'un humano&iuml;de. Les druides F&eacute;ral excellent en combat de m&ecirc;l&eacute;e et utilisent toutes les capacit&eacute;s de leurs m&eacute;tamorphoses pour attaquer leurs ennemis de front.</span>
+                                <br>
+                                <br>
+                                <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Adaptation sauvage</b></span></span></p>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Lorsque vous choisissez cette voie au niveau 2, vous devenez comp&eacute;tent dans la comp&eacute;tence de votre choix entre Dext&eacute;rit&eacute; ou Constitution, en plus de ceux de la classe des druides.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Marque d'Ursol</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">&Agrave; partir du niveau 2, vous &ecirc;tes capable de puiser dans la sagesse de l'ancien Ursol pour vous permettre de lancer subtilement des sorts, m&ecirc;me quand vous &ecirc;tes m&eacute;tamorphos&eacute;. Vous pouvez choisir d'utiliser cette caract&eacute;ristique qui vous permet de lancer des sorts pendant que vous &ecirc;tes m&eacute;tamorphos&eacute; jusqu'&agrave; la fin de votre tour. Vous pouvez utiliser cette fonction deux fois pendant un combat.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;"><b>Affinit&eacute; </b></span><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>F&eacute;ral</b></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;"><b> ou Gardienne</b></span></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">&Agrave; partir du niveau 2, vous gagnez une des caract&eacute;ristiques suivantes de votre choix, votre choix d&eacute;terminera &eacute;galement &agrave; votre niveau 14, votre caract&eacute;ristique F&eacute;ral suppl&eacute;mentaire.</span><br /><br /><span style="text-decoration: underline; font-family: arial, helvetica, sans-serif;">Ravage</span><br /><span style="font-family: arial, helvetica, sans-serif;">Lorsque vous touchez une cr&eacute;ature avec une attaque d'arme de m&ecirc;l&eacute;e, vous pouvez d&eacute;penser 2 de mana (+2 /niv) pour infliger des d&eacute;g&acirc;ts suppl&eacute;mentaires &agrave; la cible, en plus des d&eacute;g&acirc;ts de l'arme. Les d&eacute;g&acirc;ts suppl&eacute;mentaires sont de 2d8 pour le niveau 2, plus 1d8 pour chaque niveau de sort sup&eacute;rieur au 1er, jusqu'&agrave; un maximum de 5d8.</span></span>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="text-decoration: underline;">R&eacute;g&eacute;n&eacute;ration fr&eacute;n&eacute;tique.</span><br />Vous pouvez utiliser une action bonus pour d&eacute;penser du mana (2 de mana) pour regagner 1d8 points de vie.<br /></span></span>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Instinct primaire</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au niveau 6, vous agissez instinctivement face au danger et ajoutez votre modificateur de Sagesse &agrave; vos jets d'initiative. Le temps que vous avez pass&eacute; &agrave; vous m&eacute;tamorphoser vous a rendu habile &agrave; scruter votre environnement. Vous ne pouvez pas &ecirc;tre surpris pendant vous &ecirc;tes &eacute;veill&eacute;.<br /></span></span>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Attaque suppl&eacute;mentaire</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au niveau 6, vous pouvez attaquer deux fois, au lieu de une fois, chaque fois que vous prenez l'action d'attaque sur votre tour pendant que vous &ecirc;tes m&eacute;tamorphos&eacute;. De plus, vos attaques d'armes m&eacute;tamorphos&eacute;es comptent comme &eacute;tant magiques dans le but de surmonter la r&eacute;sistance et l'immunit&eacute; aux attaques et dommages non magiques.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Tactique F&eacute;ral</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Lorsque vous atteignez le niveau 6, vous choisissez l'une des caract&eacute;ristiques suivantes. Vous pouvez utiliser cette caract&eacute;ristique lorsque vous &ecirc;tes m&eacute;tamorphos&eacute;.</span><br /><br /><span style="text-decoration: underline;"><span style="font-family: arial, helvetica, sans-serif;">D&eacute;fenseur.</span></span><br /><span style="font-family: arial, helvetica, sans-serif;">Quand une cr&eacute;ature alli&eacute; que vous pouvez voir dans un rayon de 2 cases de vous est vis&eacute;e par un jet d'attaque, vous pouvez utiliser votre r&eacute;action pour &eacute;changer votre place avec la cr&eacute;ature et que l'attaque vous vise &agrave; la place.</span></span>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="text-decoration: underline;">Pulv&eacute;risateur.</span><br />Lorsque vous touchez une cr&eacute;ature avec une arme, la cr&eacute;ature doit faire un jet de sauvegarde de Force (DC 8 + votre modificateur de Force ou de Dext&eacute;rit&eacute; + votre bonus de bonus de comp&eacute;tence). En cas d'&eacute;chec, la cr&eacute;ature est est mise &agrave; terre. Vous ne pouvez pulv&eacute;riser qu'une fois par tour.<br /></span></span>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="druidrestau">
+                                <br>
+                                <span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Sp&eacute;cialisation Restauration</strong></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Les druides restauration utilisent le pouvoir apaisant de la nature pour gu&eacute;rir et restaurer.</span>
+                                <br>
+                                <span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></span>
+                                <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <tbody>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. du&nbsp;Druide</strong></th>
+                                <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Sorts</strong></th>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">R&eacute;g&eacute;n&eacute;ration, Serments</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Nourrir,&nbsp;Croissance des plantes</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 7</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Aura de vie,&nbsp;Croissance sauvage</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 9</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Communion avec la nature,&nbsp;Tranquilit&eacute;</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Nature curative</b></span></span></span>
+                                <hr />
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au niveau 3, lorsque vous rendez des points de vie &agrave; un alli&eacute; avec un sort de 1er niveau ou plus, vous pouvez &eacute;galement mettre fin &agrave; un sort de votre choix sur cette cr&eacute;ature. Le niveau du sort auquel vous mettez fin doit &ecirc;tre &eacute;gal ou inf&eacute;rieur au niveau de l'emplacement de sort que vous utilisez pour lancer le sort de soins.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Fleur de vie</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au niveau 3, vous apprenez &agrave; exploiter instinctivement la magie de la nature. Vous disposez d'un r&eacute;servoir d'&eacute;nergie de gu&eacute;rison repr&eacute;sent&eacute; par un nombre de d6 &eacute;gal &agrave; votre niveau de druide. Comme action bonus, vous pouvez choisir une cr&eacute;ature que vous pouvez voir dans un rayon de 60 cases de vous et d&eacute;penser un nombre de ces d&eacute;s &eacute;gal &agrave; la moiti&eacute; de votre niveau de druide ou moins. Lancez les d&eacute;s d&eacute;pens&eacute;s et additionnez-les. La cible regagne un nombre de points de vie &eacute;gal au total. La cible gagne &eacute;galement 1 point de vie temporaire par d&eacute; d&eacute;pens&eacute;. Se lance une fois par combat.<br /></span></span>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Esprit de vie</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au niveau 6, vous pouvez utiliser Forme spirituelle pour adopter la forme d'un puissant Esprit de vie. La transformation en cette forme ne compte pas dans les utilisations de votre caract&eacute;ristique Forme de l'esprit.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Innervation</span></strong></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Lorsque vous atteignez le niveau 10, vous pouvez insuffler de la magie de la vie &agrave; vos alli&eacute;s pour leur remonter le moral. En tant qu'action, vous choisissez une cr&eacute;ature dans un rayon de 18 cases que vous pouvez voir et lui conf&eacute;r&eacute; l'un des avantages suivants de votre choix :<br /></span><br /><span style="font-family: arial, helvetica, sans-serif;">- Pendant 10 minutes, la cr&eacute;ature peut lancer un d4 &agrave; chaque fois qu'elle fait un jet d'attaque ou un test de capacit&eacute; et ajouter le nombre obtenu au d20.</span><br /><span style="font-family: arial, helvetica, sans-serif;">- Lancez un d4. La cr&eacute;ature r&eacute;cup&egrave;re du mana &eacute;quivalente &agrave; la valeur du d&eacute;s. Une fois qu'une cr&eacute;ature a re&ccedil;u cet avantage, elle ne peut le recevoir &agrave; nouveau avant la fin du combat.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><br />Vous pouvez effectuer cette action un nombre de fois &eacute;gal &agrave; votre bonus de comp&eacute;tence, et vous r&eacute;cup&eacute;rez toutes les utilisations d&eacute;pens&eacute;es lorsque vous terminez un long repos.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Surcroissance</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au niveau 14, votre esprit d&eacute;borde d'&eacute;nergie vitale. Lorsque vous soignez une cible avec fleur de vie, lancez 1d6, et ajoutez le r&eacute;sultat au total des points de vie gu&eacute;ris et temporaires gagn&eacute;s.</span></span>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="druidequi">
+                                <br>
+                                <span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Sp&eacute;cialisation &Eacute;quilibre</strong></span></span>
+                                <hr />
+                                <span style="font-family: arial, helvetica, sans-serif;">Les druides sur la voie de l'&eacute;quilibre deviennent de f&eacute;roces combattants capables de faire appel aux forces de la nature et &agrave; la d&eacute;esse Elune pour guider leur main. Beaucoup de ces druides ont un lien profond avec le monde naturel et travaillent pour le prot&eacute;ger des nombreuses menaces ext&eacute;rieures.</span>
+                                <span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></span>
+                                <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <tbody>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <th style="width: 30%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Niv. du&nbsp;Druide</strong></th>
+                                <th style="width: 20%; padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;"><strong>Sorts</strong></th>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 3</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Am&eacute;lioration de comp&eacute;tence,&nbsp;&Eacute;clat lunaire</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 5</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Lumi&egrave;re du jour, M&eacute;t&eacute;ores</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 7</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Confusion,&nbsp;Serments</td>
+                                </tr>
+                                <tr style="border: 1px solid black; border-collapse: collapse; text-align: center;">
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Niv. 9</td>
+                                <td style="padding: 15px; border: 1px solid black; border-collapse: collapse; text-align: center;">Communion avec la nature, Col&egrave;re de la nature</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                                <p>&nbsp;</p>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Voie des sorts</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Votre lien mystique avec Elune vous donne la capacit&eacute; de lancer certains sorts. Au niveau 3, 5, 7 et 9, vous avez acc&egrave;s &agrave; des sorts sp&eacute;ciaux.<br /><br /></span></span>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Innervation</span></strong></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au 3e niveau &eacute;galement, vous pouvez r&eacute;cup&eacute;rer une partie de votre mana en m&eacute;ditant et communiant&nbsp;avec la nature. Lorsque vous effectuez cette action, vous r&eacute;tablissez l'enti&egrave;ret&eacute; de votre r&eacute;serve de mana. Ce sort est utilisable une fois par combat.</span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Force de la nature</span></strong></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au 6e niveau, vous pouvez puiser dans les forces qui vous entourent et les utiliser pour renforcer vos sorts. Lorsque vous lancez un sort qui ne cible qu'une seule cr&eacute;ature, vous pouvez choisir de lui infliger des d&eacute;g&acirc;ts suppl&eacute;mentaires &eacute;gaux &agrave; ceux de votre niveau de druide ou de lui rendre des points de vie &eacute;quivalents &agrave; votre niveau de druide.&nbsp;Vous pouvez utiliser cette fonction deux fois. Vous regagnez les utilisations d&eacute;pens&eacute;es apr&egrave;s chaque session de jeu.<br /></span></span>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span lang="fr" style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 18px;">Influence astrale</span></strong></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;">Au 10e niveau, vous trouvez r&eacute;confort et pouvoir aupr&egrave;s de la d&eacute;esse Elune, vous gagnez les caract&eacute;ristiques suivantes :<br /><em>- Vous gagnez une r&eacute;sistance aux d&eacute;g&acirc;ts sacr&eacute;s.<br />- Vous pouvez choisir d'infliger des dommages sacr&eacute;s avec votre sort "Force de la nature", plut&ocirc;t que le type de d&eacute;g&acirc;ts du sort.<br />- Vous avez l'avantage sur les jets de sauvegarde pour &eacute;viter d'&ecirc;tre charm&eacute; ou effray&eacute; par les effets des sorts.</em></span></span>
+                                <br>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>B&eacute;n&eacute;diction des anciens</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;">&Agrave; partir du 14e niveau, vous balancez entre l'&eacute;quilibre des deux forces de ce monde. A chaque fois que vous terminez un combat, vous pouvez choisir An'she ou &Eacute;lune et gagner les b&eacute;n&eacute;fices de l'&eacute;quilibre choisi.<br /></span><span style="text-decoration: underline;"><strong>An'she :</strong></span><span style="font-family: arial, helvetica, sans-serif;"> Vous &ecirc;tes toujours sous l'effet d'un sort d'invisibilit&eacute;. De plus, vous &ecirc;tes immunis&eacute; contre l'aveuglement et lorsqu'une attaque de m&ecirc;l&eacute;e est effectu&eacute;e contre vous, vous pouvez utiliser vos r&eacute;flexes pour imposer un d&eacute;savantage au jet d'attaque &eacute;quivalent &agrave; votre niveau divis&eacute; par deux.<br /><span style="text-decoration: underline;"><strong>Elune :</strong></span> Vous gagnez la vision dans le noir jusqu'&agrave; une port&eacute;e de 20 cases, si vous avez d&eacute;j&agrave; la comp&eacute;tence "vision dans le noir" de votre race, sa port&eacute;e<br />augmente de 20 cases suppl&eacute;mentaires. De plus, lorsque vous &ecirc;tes dans une lumi&egrave;re faible ou l'obscurit&eacute;, vous pouvez utiliser vos r&eacute;flexes pour gagner un avantage sur vos attaques de sorts effectu&eacute;es jusqu'&agrave; la fin de votre tour.<br /></span></span></span>
+                                <br>
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18px;"><b>Incarnation : &Eacute;lu d'&Eacute;lune</b></span></span></span>
+                                <hr />
+                                <span class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Traduction"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;">&Agrave; partir du niveau 20, vous avez &eacute;t&eacute; choisi par Elune et vous pouvez laisser ses pouvoirs vous traverser prenant l'apparence de votre choix. Par exemple, les couleurs et les &eacute;toiles d'Elune pourraient se d&eacute;placer sur votre peau, votre forme de peau de lune peut briller d'une faible lueur bleue, ou vous pouvez avoir un croissant lune flottant au-dessus de votre t&ecirc;te. Vous pouvez utiliser votre action pour prendre votre forme de peau de lune et laisser les pouvoirs de la d&eacute;esse couler &agrave; travers vous. Pendant X TOURS, vous gagnez les avantages suivants :<br />- Vous avez un montant de mana doubl&eacute; .<br />- La port&eacute;e de tous les sorts de druide que vous lancez est doubl&eacute;e.<br />- Vous avez l'avantage sur les jets de sauvegarde de Sagesse. Vous partagez cette avantage avec vos alli&eacute;s sur 10 cases autour de vous.<br />L'incarnation persiste au-del&agrave; de la m&eacute;tamorphose, mais n'a aucun effet en dehors de ta forme de peau de lune. Une fois que vous utilisez cette fonction, vous ne pouvez plus l'utiliser avant votre prochaine session.</span></span></span>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="classCaracBloc">
+                            <p style="text-align: center;"><img src="/assets/images/classes/logo/druide_logo.png" class="logoClass"></p>
+                            <h3>Fiche du Druide</h3>
+                            <b>Caractéristique du Druide :</b>
+                            <br>
+                            <ul>
+                              <li><b>Dés de vie :</b> <p style="color: rgb(0, 0, 0)">1d8 par niveau de paladin</p></li>
+                              <li><b>Points de vie au niveau 1 :</b> <p style="color: rgb(0, 0, 0)">8 + votre modificateur de Constitution</p></li>
+                              <li><b>Points de vie aux niveaux supérieurs :</b> <p style="color: rgb(0, 0, 0)">1d8 (ou 5) + votre modificateur de Constitution par niveau de druide</p></li>
+                            </ul>
+                            <br>
+                            <b>Armures :</b> Armures légères
+                            <br><br>
+                            <b>Armes :</b> Armes simples
+                            <br><br>
+                            <b>Caractéristique du Druide :</b> Intelligence, Sagesse
+                            <br><br>
+                            <b>Compétence du Druide :</b> Choisissez deux compétences parmi Arcanes, Dressage, Perspicacité, Médecine, Nature, Perception, Religion et Survie
+                            <br><br>
+                            <b>Équipement du Druide :</b> Vous commencez avec un bâton en bois courbé, une armure en cuir et un icône druidique
+                            <br><br>
+                            <b>Races jouables :</b>
+                            <div class="row">
+                                <div class="col-xs-6 valign-middle margin-top-5">
+                                    <img src="/assets/images/classes/portrait_races/elfenuit.jpg" class="square-40">
+                                    <a href="/races/elfenuit"><img src="/assets/images/faction/alliance.png" class="square-20"> Elfe de la Nuit</a>
+                                </div>
+                                <div class="col-xs-6 valign-middle margin-top-5">
+                                    <img src="/assets/images/classes/portrait_races/tauren.jpg" class="square-40">
+                                    <a href="/races/tauren"><img src="/assets/images/faction/horde.png" class="square-20"> Tauren</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+</body>
